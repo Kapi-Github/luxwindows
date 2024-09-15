@@ -1,0 +1,8 @@
+.product_text {
+    transition: min-height 0.5s ease;
+    min-height: 100px;
+}
+
+.product_tab:hover .product_text {
+    min-height: 100%;
+}

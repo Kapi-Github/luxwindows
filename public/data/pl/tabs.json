@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Produkty",
+        "key": "1",
+        "subtabs": [
+            {
+                "name": "Okna",
+                "key": "1-1",
+                "subtabs": [
+                    {
+                        "name": "Aluplast",
+                        "key": "1-1-1",
+                        "subtabs": []
+                    }
+                ]
+            },
+            {
+                "name": "Drzwi zewnętrzne",
+                "key": "1-2",
+                "subtabs": [
+                    {
+                        "name": "Drzwi dostępne od ręki",
+                        "key": "1-2-1",
+                        "subtabs": [
+                            {
+                                "name": "Pełne",
+                                "key": "1-2-1-1",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Przeszklone - Inox",
+                                "key": "1-2-1-2",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Z ramką PCV",
+                                "key": "1-2-1-3",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Z aplikacją",
+                                "key": "1-2-1-4",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Techniczne",
+                                "key": "1-2-1-5",
+                                "subtabs": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Drzwi na zamówienie",
+                        "key": "1-2-2",
+                        "subtabs": []
+                    }
+                ]
+            },
+            {
+                "name": "Aluminium",
+                "key": "1-3",
+                "subtabs": [
+                    {
+                        "name": "Aluprof",
+                        "key": "1-3-1",
+                        "subtabs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nasza firma",
+        "key": "2",
+        "subtabs": [
+            {
+                "name": "O firmie",
+                "key": "2-1",
+                "subtabs": []
+            },
+            {
+                "name": "Kariera",
+                "key": "2-2",
+                "subtabs": []
+            }
+        ]
+    },
+    {
+        "name": "Kontakt",
+        "key": "3",
+        "subtabs": []
+    },
+    {
+        "name": "Lokalizacja",
+        "key": "4",
+        "subtabs": []
+    }
+]

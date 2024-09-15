@@ -1,0 +1,78 @@
+[
+    {
+        "name": "/produkty",
+        "key": "1"
+    },
+    {
+        "name": "/produkty/okna",
+        "key": "1-1"
+    },
+    {
+        "name": "/produkty/okna/aluplast",
+        "key": "1-1-1"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne",
+        "key": "1-2"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki",
+        "key": "1-2-1"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/pelne",
+        "key": "1-2-1-1"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/przeszklone-inox",
+        "key": "1-2-1-2"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-ramka-pcv",
+        "key": "1-2-1-3"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-aplikacja",
+        "key": "1-2-1-4"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/techniczne",
+        "key": "1-2-1-5"
+    },
+    {
+        "name": "/produkty/drzwi-zewnetrzne/drzwi-na-zamowienie",
+        "key": "1-2-2"
+    },
+    {
+        "name": "/produkty/aluminium",
+        "key": "1-3"
+    },
+    {
+        "name": "/produkty/aluminium/aluprof",
+        "key": "1-3-1"
+    },
+    {
+        "name": "/produkty/podwaliny",
+        "key": "1-4"
+    },
+    {
+        "name": "/nasza-firma",
+        "key": "2"
+    },
+    {
+        "name": "/nasza-firma/o-firmie",
+        "key": "2-1"
+    },
+    {
+        "name": "/nasza-firma/kariera",
+        "key": "2-2"
+    },
+    {
+        "name": "/kontakt",
+        "key": "3"
+    },
+    {
+        "name": "/lokalizacja",
+        "key": "4"
+    }
+]

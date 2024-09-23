@@ -15,16 +15,23 @@ const Footer = () => {
                             {data && data.footer.contact}
                         </p>
                     </div>
-                    <div className="flex-1 flex flex-col gap-[12px] text-[16px] font-extralight">
-                        <a
-                            className="text-center"
-                            href={`tel:+48${data.footer.phone.replace(
-                                /\s+/g,
-                                ""
-                            )}`}
-                        >
-                            +48 {data.footer.phone}
-                        </a>
+                    <div className="flex-1 flex flex-col items-center gap-[12px] text-[16px] font-extralight">
+                        {data.footer.phones.map((phone: any) => (
+                            <a
+                                className="text-center flex items-center gap-[4px]"
+                                href={`tel:+48${phone.phone.replace(
+                                    /\s+/g,
+                                    ""
+                                )}`}
+                            >
+                                <img
+                                    src={phone.img}
+                                    alt="Phone image"
+                                    className="h-[12px]"
+                                />
+                                {phone.phone}
+                            </a>
+                        ))}
                         <a
                             className="text-center"
                             href={`mailto:${data.footer.email}`}

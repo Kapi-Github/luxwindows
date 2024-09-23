@@ -17,6 +17,7 @@ import Aluminum from "./Components/Tabs/Products/Aluminum/Aluminum";
 import Aluprof from "./Components/Tabs/Products/Aluminum/Aluprof/Aluprof";
 import "./index.css";
 import AluplastItem from "./Components/Tabs/Products/Windows/Aluplast/AluplastItem";
+import HomePage from "./Components/Tabs/HomePage/HomePage";
 
 export const GlobalContext = createContext<GlobalContextDef>(
     {} as GlobalContextDef
@@ -63,7 +64,7 @@ function App() {
                     <div className="max-w-[1260px] w-full mx-auto flex flex-col gap-[18px] bg-white font-[Poppins]">
                         <Header />
                         <Routes>
-                            <Route path="/" element={<div></div>} />
+                            <Route path="/" element={<HomePage />} />
                             {/* Produkty */}
                             {/* Okna */}
                             <Route path="/produkty" element={<Products />} />

@@ -1,4 +1,8 @@
 {
+    "homepage": {
+        "title": "Poznaj nasz świat",
+        "img": "/images/home_page.jpg"
+    },
     "products": {
         "title": "Nasze produkty",
         "key": "1",
@@ -213,7 +217,16 @@
     },
     "footer": {
         "contact": "Skontaktuj się z nami",
-        "phone": "502304182 +48698492319",
+        "phones": [
+            {
+                "phone": "+48 502 304 182",
+                "img": "/images/languages/pl.png"
+            },
+            {
+                "phone": "+48 698 492 319",
+                "img": "/images/languages/pl.png"
+            }
+        ],
         "email": "kontakt@luxwindows.eu"
     }
 }

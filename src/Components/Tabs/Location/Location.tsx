@@ -2,8 +2,17 @@ import { LatLngLiteral } from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import locationImg from "/images/location.jpg";
+import locationIcon from "/images/icon.png";
+import L from "leaflet";
 import { useContext } from "react";
 import { GlobalContext } from "../../../App";
+
+const customIcon = new L.Icon({
+    iconUrl: locationIcon,
+    iconSize: [56, 56],
+    iconAnchor: [17, 35],
+    popupAnchor: [0, -30],
+});
 
 const Location = () => {
     const { data } = useContext(GlobalContext);
@@ -40,7 +49,7 @@ const Location = () => {
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     />
-                    <Marker position={position}>
+                    <Marker position={position} icon={customIcon}>
                         <Popup>LuxWindows Sp. z o.o.</Popup>
                     </Marker>
                 </MapContainer>

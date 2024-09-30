@@ -7,22 +7,18 @@ import React from "react";
 const Tabs = [
     {
         title: "Specyfikacja",
-        key: 1,
         tab: "features",
     },
     {
         title: "Opis",
-        key: 2,
         tab: "description",
     },
     {
         title: "Kolorystyka",
-        key: 3,
         tab: "color",
     },
     {
         title: "Do pobrania",
-        key: 4,
         tab: "download",
     },
 ];
@@ -35,14 +31,18 @@ const AluplastItem = () => {
     const [itemData, setItemData] = useState<any>();
     const [itemCategory, setItemCategory] = useState<string>();
     const [openedTab, setOpenedTab] = useState<number>(1);
+    const [openedKey, setOpenedKey] = useState<string>("");
     const [left, setLeft] = useState(0);
     const tabRefs = useRef<any[]>([]);
+    const [tabs, setTabs] = useState<any[]>([...Tabs]);
+
+    useEffect(() => {
+        setOpenedKey(tabs[0].tab);
+    }, [tabs]);
 
     useEffect(() => {
         setOpenedTab(1);
-    }, [category, item]);
-
-    useEffect(() => {
+        setTabs([...Tabs]);
         const findedCategory = data.aluplast.subtabs.find(
             (item: any) => item.path === category
         );
@@ -55,6 +55,30 @@ const AluplastItem = () => {
 
             if (findedItem) {
                 setItemData(findedItem);
+                Object.entries(findedItem.details).map((item: any) => {
+                    if (Array.isArray(item[1]) && item[1].length === 0) {
+                        setTabs((prev) => {
+                            return prev.filter((tab) => {
+                                if (tab.tab !== item[0]) {
+                                    return tab;
+                                }
+                            });
+                        });
+                    } else if (
+                        typeof item[1] === "object" &&
+                        item[1] !== null &&
+                        !Array.isArray(item[1]) &&
+                        Object.keys(item[1]).length === 0
+                    ) {
+                        setTabs((prev) => {
+                            return prev.filter((tab) => {
+                                if (tab.tab !== item[0]) {
+                                    return tab;
+                                }
+                            });
+                        });
+                    }
+                });
             }
         }
     }, [category, item]);
@@ -91,8 +115,8 @@ const AluplastItem = () => {
                             {data.aluplast.title}
                         </span>
                     </div>
-                    <div className="flex gap-x-[24px] box">
-                        <div className="flex-1 flex">
+                    <div className="flex xl:flex-row xl:gap-x-[24px] flex-col max-xl:items-center gap-[64px] box">
+                        <div className="xl:flex-1 max-xl:w-full flex xl:flex-row flex-col-reverse items-center">
                             <div className="flex flex-col">
                                 <img
                                     src={itemData.img}
@@ -100,11 +124,11 @@ const AluplastItem = () => {
                                     className="w-[250px]"
                                 />
                             </div>
-                            <div className="flex-1 flex flex-col gap-[12px]">
-                                <span className="text-[20px] font-light">
+                            <div className="flex-1 w-full flex flex-col gap-[12px]">
+                                <span className="text-[20px] font-light max-xl:text-center">
                                     {itemCategory}
                                 </span>
-                                <span className="text-[32px]">
+                                <span className="text-[32px] max-xl:text-center">
                                     {itemData.title}
                                 </span>
                                 <div className="relative">
@@ -118,17 +142,18 @@ const AluplastItem = () => {
                                     </div>
                                     <div className="w-full flex flex-col gap-[48px]">
                                         <div className="border-b-[1px] border-b-gray-600 flex relative z-10">
-                                            {Tabs.map((tab, index) => (
+                                            {tabs.map((tab, index) => (
                                                 <div
                                                     key={`aluplast-tab-${index}`}
                                                     className={`cursor-pointer flex justify-center w-[160px] py-[12px] transition-all duration-150 ease-in-out ${
-                                                        openedTab === tab.key
+                                                        openedTab === index + 1
                                                             ? "text-white"
                                                             : "hover:bg-gray-400"
                                                     }`}
-                                                    onClick={() =>
-                                                        setOpenedTab(tab.key)
-                                                    }
+                                                    onClick={() => {
+                                                        setOpenedTab(index + 1);
+                                                        setOpenedKey(tab.tab);
+                                                    }}
                                                     ref={(el) =>
                                                         (tabRefs.current[
                                                             index
@@ -142,9 +167,9 @@ const AluplastItem = () => {
                                             ))}
                                         </div>
                                         <div className="p-[16px]">
-                                            {openedTab === 1 && (
+                                            {openedKey === "features" && (
                                                 <ul className="list-disc pl-[24px]">
-                                                    {itemData.features.map(
+                                                    {itemData.details.features.map(
                                                         (
                                                             feature: string,
                                                             index: number
@@ -159,16 +184,17 @@ const AluplastItem = () => {
                                                     )}
                                                 </ul>
                                             )}
-                                            {openedTab === 2 && (
+                                            {openedKey === "description" && (
                                                 <div className="flex flex-col gap-[24px]">
                                                     <span className="font-medium text-[24px]">
                                                         {
-                                                            itemData.description
+                                                            itemData.details
+                                                                .description
                                                                 .title
                                                         }
                                                     </span>
                                                     <div className="flex flex-col gap-[24px]">
-                                                        {itemData.description.paragraphs.map(
+                                                        {itemData.details.description.paragraphs.map(
                                                             (
                                                                 paragraph: string,
                                                                 index: number
@@ -184,22 +210,40 @@ const AluplastItem = () => {
                                                     </div>
                                                 </div>
                                             )}
-                                            {openedTab === 1 && <div></div>}
-                                            {openedTab === 1 && <div></div>}
+                                            {openedKey === "color" && (
+                                                <ul className="list-disc pl-[24px]">
+                                                    {itemData.details.features.map(
+                                                        (
+                                                            feature: string,
+                                                            index: number
+                                                        ) => (
+                                                            <li
+                                                                key={`aluplast-item-list-item-${index}`}
+                                                                className="font-light text-[18px]"
+                                                            >
+                                                                {feature}
+                                                            </li>
+                                                        )
+                                                    )}
+                                                </ul>
+                                            )}
+                                            {openedKey === "download" && (
+                                                <div></div>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[1px] bg-gray-600"></div>
-                        <div className="flex flex-col gap-[48px]">
+                        <div className="xl:w-[1px] max-xl:w-[90%] max-xl:h-[1px]  bg-gray-600"></div>
+                        <div className="flex flex-col gap-[48px] max-xl:w-[60%]">
                             {data.aluplast.subtabs.map(
                                 (header: any, index: number) => (
                                     <div
                                         className={`w-full flex flex-col gap-[20px]`}
                                         key={`list-category-${index}`}
                                     >
-                                        <span className="text-[24px] font-medium pr-[24px]">
+                                        <span className="text-[24px] max-xl:text-center font-medium xl:pr-[24px]">
                                             {header.title}
                                         </span>
                                         <div className="flex flex-col gap-[16px]">
@@ -218,7 +262,7 @@ const AluplastItem = () => {
                                                                     tab.path
                                                                 )
                                                             }
-                                                            className="text-[20px] font-light hover:pl-[8px] pl-0 transition-all duration-200 ease-in-out cursor-pointer"
+                                                            className="text-[20px] max-xl: text-center font-light xl:hover:pl-[8px] pl-0 transition-all duration-200 ease-in-out cursor-pointer"
                                                         >
                                                             {tab.title}
                                                         </span>

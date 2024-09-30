@@ -16,8 +16,9 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="flex-1 flex flex-col items-center gap-[12px] text-[16px] font-extralight">
-                        {data.footer.phones.map((phone: any) => (
+                        {data.footer.phones.map((phone: any, index: number) => (
                             <a
+                                key={`phone-number-${index}`}
                                 className="text-center flex items-center gap-[4px]"
                                 href={`tel:+48${phone.phone.replace(
                                     /\s+/g,

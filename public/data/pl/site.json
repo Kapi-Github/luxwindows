@@ -55,85 +55,95 @@
                         "title": "IDEAL 8000",
                         "path": "ideal-8000",
                         "img": "/images/products/windows/aluplast/IDEAL_8000.jpg",
-                        "features": [
-                            "system 6-komorowy",
-                            "głębokość zabudowy 85 mm",
-                            "system z uszczelnieniem środkowym (3 uszczelki)",
-                            "klasyczny design skrzydła (classic-line niezlicowany)",
-                            "potwierdzona testami klasa odporności na włamanie RC2",
-                            "dostępny w wielu wariantach kolorystycznych",
-                            "Współczynnik przenikania ciepła Uw wynosi 0,76 W/m²K (Dla okna referencyjnego o wym. 1230*1480mm, Ug = 0,5 W/m2K)",
-                            "w standardzie zgrzew V"
-                        ],
-                        "description": {
-                            "title": "Ukryta moc technologii",
-                            "paragraphs": [
-                                "IDEAL 8000 to połączenie najnowocześniejszych rozwiązań technicznych dla uzyskania ponadprzeciętnych właściwości, gwarantujących ciepło, ciszę, bezpieczeństwo i wyjątkową estetykę okna.",
-                                "To doskonała propozycja dla wszystkich, którzy oczekują komfortu mieszkania na najwyższym poziomie."
-                            ]
+                        "details": {
+                            "features": [
+                                "system 6-komorowy",
+                                "głębokość zabudowy 85 mm",
+                                "system z uszczelnieniem środkowym (3 uszczelki)",
+                                "klasyczny design skrzydła (classic-line niezlicowany)",
+                                "potwierdzona testami klasa odporności na włamanie RC2",
+                                "dostępny w wielu wariantach kolorystycznych",
+                                "Współczynnik przenikania ciepła Uw wynosi 0,76 W/m²K (Dla okna referencyjnego o wym. 1230*1480mm, Ug = 0,5 W/m2K)",
+                                "w standardzie zgrzew V"
+                            ],
+                            "description": {
+                                "title": "Ukryta moc technologii",
+                                "paragraphs": [
+                                    "IDEAL 8000 to połączenie najnowocześniejszych rozwiązań technicznych dla uzyskania ponadprzeciętnych właściwości, gwarantujących ciepło, ciszę, bezpieczeństwo i wyjątkową estetykę okna.",
+                                    "To doskonała propozycja dla wszystkich, którzy oczekują komfortu mieszkania na najwyższym poziomie."
+                                ]
+                            },
+                            "color": ["czerwony"],
+                            "download": ""
                         }
                     },
                     {
                         "title": "IDEAL NEO MD",
                         "path": "ideal-neo-md",
                         "img": "/images/products/windows/aluplast/IDEAL_NEO_MD.jpg",
-                        "features": [
-                            "system 6-komorowy",
-                            "głębokość zabudowy 76 mm",
-                            "system z uszczelnieniem zewnętrznym (3 uszczelki)",
-                            "prosty, symetryczny, kubistyczny kształt i wizualna lekkość konstrukcji",
-                            "wąskie, wyraziste przylgi",
-                            "klasyczne uszczelnienie środkowe – lepsze zabezpieczenie przed włamaniem",
-                            "współczynnik przenikania ciepła Uw wynosi 0,76 W/m²K (Dla okna referencyjnego o wym. 1230x1480mm, Ug = 0,5 W/m²K)"
-                        ],
-                        "description": {
-                            "title": "PROSTE STRUKTURY I MINIMALISTYCZNY DESIGN",
-                            "paragraphs": [
-                                "IDEAL NEO MD to niezwykle atrakcyjna wzorniczo propozycja dla klientów ceniących ponadczasową stylistykę. Prosty, symetryczny, kubistyczny kształt to wyróżnik okien wykonanych w tym systemie.",
-                                "System IDEAL NEO MD został zainspirowany stylem Bauhaus. Styl ten niegdyś zrewolucjonizował architekturę. Prosty i piękny projekt dla każdego. Dużo światła i połączenie wnętrza z elementami z zewnątrz."
-                            ]
+                        "details": {
+                            "features": [
+                                "system 6-komorowy",
+                                "głębokość zabudowy 76 mm",
+                                "system z uszczelnieniem zewnętrznym (3 uszczelki)",
+                                "prosty, symetryczny, kubistyczny kształt i wizualna lekkość konstrukcji",
+                                "wąskie, wyraziste przylgi",
+                                "klasyczne uszczelnienie środkowe – lepsze zabezpieczenie przed włamaniem",
+                                "współczynnik przenikania ciepła Uw wynosi 0,76 W/m²K (Dla okna referencyjnego o wym. 1230x1480mm, Ug = 0,5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "PROSTE STRUKTURY I MINIMALISTYCZNY DESIGN",
+                                "paragraphs": [
+                                    "IDEAL NEO MD to niezwykle atrakcyjna wzorniczo propozycja dla klientów ceniących ponadczasową stylistykę. Prosty, symetryczny, kubistyczny kształt to wyróżnik okien wykonanych w tym systemie.",
+                                    "System IDEAL NEO MD został zainspirowany stylem Bauhaus. Styl ten niegdyś zrewolucjonizował architekturę. Prosty i piękny projekt dla każdego. Dużo światła i połączenie wnętrza z elementami z zewnątrz."
+                                ]
+                            }
                         }
                     },
                     {
                         "title": "IDEAL 4000",
                         "path": "ideal-4000",
                         "img": "/images/products/windows/aluplast/IDEAL_4000.jpg",
-                        "features": [
-                            "system 5-komorowy w standardowej kombinacji",
-                            "głębokość zabudowy 70 mm",
-                            "system z uszczelnieniem zewnętrznym (2 uszczelki)",
-                            "potwierdzona testami klasa odporności na włamanie RC2",
-                            "dostępny w licznych wariantach kolorystycznych",
-                            "współczynnik przenikania ciepła Uw wynosi 0,86 W/m²K (Dla okna referencyjnego o wym. 1230x1480mm, Ug = 0,5 W/m²K)"
-                        ],
-                        "description": {
-                            "title": "NOWOCZESNA ARCHITEKTURA",
-                            "paragraphs": [
-                                "Mocna konstrukcja profili o głębokości zabudowy 70 mm oraz duże komory na wzmocnienia stalowe gwarantują optymalne parametry statyczne i umożliwiają wykonanie okien o dużych gabarytach.",
-                                "Wielokomorowa budowa to gwarancja wysokiej izolacyjności cieplnej i akustycznej."
-                            ]
+                        "details": {
+                            "features": [
+                                "system 5-komorowy w standardowej kombinacji",
+                                "głębokość zabudowy 70 mm",
+                                "system z uszczelnieniem zewnętrznym (2 uszczelki)",
+                                "potwierdzona testami klasa odporności na włamanie RC2",
+                                "dostępny w licznych wariantach kolorystycznych",
+                                "współczynnik przenikania ciepła Uw wynosi 0,86 W/m²K (Dla okna referencyjnego o wym. 1230x1480mm, Ug = 0,5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "NOWOCZESNA ARCHITEKTURA",
+                                "paragraphs": [
+                                    "Mocna konstrukcja profili o głębokości zabudowy 70 mm oraz duże komory na wzmocnienia stalowe gwarantują optymalne parametry statyczne i umożliwiają wykonanie okien o dużych gabarytach.",
+                                    "Wielokomorowa budowa to gwarancja wysokiej izolacyjności cieplnej i akustycznej."
+                                ]
+                            }
                         }
                     },
                     {
                         "title": "IDEAL 7000",
                         "path": "ideal-7000",
                         "img": "/images/products/windows/aluplast/IDEAL_7000.jpg",
-                        "features": [
-                            "system 6-komorowy",
-                            "głębokość zabudowy 85 mm",
-                            "system z uszczelnieniem zewnętrznym (2 uszczelki)",
-                            "klasyczny design skrzydła (classic-line niezlicowany)",
-                            "potwierdzona testami klasa odporności na włamanie RC2",
-                            "dostępny w licznych wariantach kolorystycznych",
-                            "współczynnik przenikania ciepła Uw wynosi 0,79 W/m²K (Dla okna referencyjnego o wym. 1230x1480mm, Ug = 0,5 W/m²K)",
-                            "w standardzie zgrzew V-Perfect"
-                        ],
-                        "description": {
-                            "title": "NOWOCZESNA ARCHITEKTURA",
-                            "paragraphs": [
-                                "IDEAL 7000 to przykład synergicznego wykorzystania właściwości profili i szyb zespolonych w celu tworzenia okien charakteryzujących się bardzo niską przenikalnością cieplną.",
-                                "Uzyskany w badaniach współczynnik przenikalności cieplnej profili o wartości Uf=1,1-1,0 W/m2K w połączeniu z możliwością stosowania szerszych i cieplejszych pakietów szybowych gwarantuje najlepsze parametry cieplne okna."
-                            ]
+                        "details": {
+                            "features": [
+                                "system 6-komorowy",
+                                "głębokość zabudowy 85 mm",
+                                "system z uszczelnieniem zewnętrznym (2 uszczelki)",
+                                "klasyczny design skrzydła (classic-line niezlicowany)",
+                                "potwierdzona testami klasa odporności na włamanie RC2",
+                                "dostępny w licznych wariantach kolorystycznych",
+                                "współczynnik przenikania ciepła Uw wynosi 0,79 W/m²K (Dla okna referencyjnego o wym. 1230x1480mm, Ug = 0,5 W/m²K)",
+                                "w standardzie zgrzew V-Perfect"
+                            ],
+                            "description": {
+                                "title": "NOWOCZESNA ARCHITEKTURA",
+                                "paragraphs": [
+                                    "IDEAL 7000 to przykład synergicznego wykorzystania właściwości profili i szyb zespolonych w celu tworzenia okien charakteryzujących się bardzo niską przenikalnością cieplną.",
+                                    "Uzyskany w badaniach współczynnik przenikalności cieplnej profili o wartości Uf=1,1-1,0 W/m2K w połączeniu z możliwością stosowania szerszych i cieplejszych pakietów szybowych gwarantuje najlepsze parametry cieplne okna."
+                                ]
+                            }
                         }
                     }
                 ]
@@ -146,35 +156,39 @@
                         "title": "HST 85",
                         "path": "hst-85",
                         "img": "/images/products/windows/aluplast/HST_85.jpg",
-                        "features": [],
-                        "description": {
-                            "title": "JEDEN SYSTEM – TRZY ROZWIĄZANIA",
-                            "paragraphs": [
-                                "Nowy system drzwi HST 85 mm jest z jednej strony odpowiedzią na oczekiwania w zakresie tworzenia coraz większych konstrukcji okiennych, a z drugiej strony poprzez zmiany konstrukcyjne, a przede wszystkim możliwość stosowania szerszych pakietów szybowych o szerokości do 51 mm, pozwala uzyskiwać ponadprzeciętne właściwości w zakresie izolacyjności cieplnej. Nowością w tym segmencie jest modułowy charakter konstrukcji, co umożliwia trzy dowolne konfiguracje produktu, w zależności od oczekiwanych parametrów cieplnych.",
-                                "Idealnym rozwiązaniem dla pragnących komfortowego połączenia wnętrza z tarasem oraz panoramicznego widoku osiąganego dzięki dużej powierzchni przeszklonej jest zastosowanie drzwi unoszono-przesuwnych HST 85 mm. Niewątpliwą zaletą tego typu drzwi tarasowych są możliwe do wykonania wymiary konstrukcji."
-                            ]
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "JEDEN SYSTEM – TRZY ROZWIĄZANIA",
+                                "paragraphs": [
+                                    "Nowy system drzwi HST 85 mm jest z jednej strony odpowiedzią na oczekiwania w zakresie tworzenia coraz większych konstrukcji okiennych, a z drugiej strony poprzez zmiany konstrukcyjne, a przede wszystkim możliwość stosowania szerszych pakietów szybowych o szerokości do 51 mm, pozwala uzyskiwać ponadprzeciętne właściwości w zakresie izolacyjności cieplnej. Nowością w tym segmencie jest modułowy charakter konstrukcji, co umożliwia trzy dowolne konfiguracje produktu, w zależności od oczekiwanych parametrów cieplnych.",
+                                    "Idealnym rozwiązaniem dla pragnących komfortowego połączenia wnętrza z tarasem oraz panoramicznego widoku osiąganego dzięki dużej powierzchni przeszklonej jest zastosowanie drzwi unoszono-przesuwnych HST 85 mm. Niewątpliwą zaletą tego typu drzwi tarasowych są możliwe do wykonania wymiary konstrukcji."
+                                ]
+                            }
                         }
                     },
                     {
                         "title": "SMART SLIDE",
                         "path": "smart-slide",
                         "img": "/images/products/windows/aluplast/SMART_SLIDE.jpg",
-                        "features": [
-                            "głębokość zabudowy ram 140 mm",
-                            "skrzydło 70 mm",
-                            "możliwość szklenia pakietami do 40 mm",
-                            "nowoczesny design classic-line",
-                            "możliwe do wykonania schematy A+C",
-                            "ukryte mechanizmy okuciowe",
-                            "dostępny w trzech kolorach rdzeni: biały, brązowy, antracytowy oraz szerokiej gamie folii dekoracyjnych"
-                        ],
-                        "description": {
-                            "title": "DUŻA SZCZELNOŚĆ KONSTRUKCJI",
-                            "paragraphs": [
-                                "Drzwi przesuwne smart-slide to nowe rozwiązanie w segmencie drzwi/okien przesuwnych, które docelowo mogą być atrakcyjną alternatywą dla drzwi tarasowych typu PSK/PATIO. To świetne rozwiązanie zarówno pod kątem budownictwa jednorodzinnego, ale również obiektów użyteczności publicznej, gdzie oczekuje się od drzwi tarasowych łatwości ich obsługi i niezawodności.",
-                                "Innowacyjny mechanizm zamykania pozwala na prostą i intuicyjną obsługę, zbliżoną do rozwiązań stosowanych w drzwiach unoszono-przesuwnych, typu HST.",
-                                "Specjalistyczne okucia okienne gwarantują, że skrzydło po jego odblokowaniu swobodnie i bez najmniejszego oporu przesuwa się na wózkach względem nieotwieranej części konstrukcji. Mechanizm blokujący pozwala na delikatne zamykanie skrzydła w ramie, a tym samym łatwą obsługę drzwi przesuwnych."
-                            ]
+                        "details": {
+                            "features": [
+                                "głębokość zabudowy ram 140 mm",
+                                "skrzydło 70 mm",
+                                "możliwość szklenia pakietami do 40 mm",
+                                "nowoczesny design classic-line",
+                                "możliwe do wykonania schematy A+C",
+                                "ukryte mechanizmy okuciowe",
+                                "dostępny w trzech kolorach rdzeni: biały, brązowy, antracytowy oraz szerokiej gamie folii dekoracyjnych"
+                            ],
+                            "description": {
+                                "title": "DUŻA SZCZELNOŚĆ KONSTRUKCJI",
+                                "paragraphs": [
+                                    "Drzwi przesuwne smart-slide to nowe rozwiązanie w segmencie drzwi/okien przesuwnych, które docelowo mogą być atrakcyjną alternatywą dla drzwi tarasowych typu PSK/PATIO. To świetne rozwiązanie zarówno pod kątem budownictwa jednorodzinnego, ale również obiektów użyteczności publicznej, gdzie oczekuje się od drzwi tarasowych łatwości ich obsługi i niezawodności.",
+                                    "Innowacyjny mechanizm zamykania pozwala na prostą i intuicyjną obsługę, zbliżoną do rozwiązań stosowanych w drzwiach unoszono-przesuwnych, typu HST.",
+                                    "Specjalistyczne okucia okienne gwarantują, że skrzydło po jego odblokowaniu swobodnie i bez najmniejszego oporu przesuwa się na wózkach względem nieotwieranej części konstrukcji. Mechanizm blokujący pozwala na delikatne zamykanie skrzydła w ramie, a tym samym łatwą obsługę drzwi przesuwnych."
+                                ]
+                            }
                         }
                     }
                 ]
@@ -187,24 +201,28 @@
                         "title": "IDEAL 4000",
                         "path": "ideal-4000",
                         "img": "/images/products/windows/aluplast/IDEAL_4000_DOORS.jpg",
-                        "features": [],
-                        "description": {
-                            "title": "NOWOCZESNA ARCHITEKTURA",
-                            "paragraphs": [
-                                "Seria IDEAL 4000 to podstawowa propozycja w zakresie rozwiązań drzwi zewnętrznych aluplast. Dzięki wielokomorowej zabudowie o głębokości 70 mm i zastosowaniu progu drzwiowego z przekładką termoizolacyjną, posiadają bardzo dobre parametry izolacyjności termicznej."
-                            ]
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "NOWOCZESNA ARCHITEKTURA",
+                                "paragraphs": [
+                                    "Seria IDEAL 4000 to podstawowa propozycja w zakresie rozwiązań drzwi zewnętrznych aluplast. Dzięki wielokomorowej zabudowie o głębokości 70 mm i zastosowaniu progu drzwiowego z przekładką termoizolacyjną, posiadają bardzo dobre parametry izolacyjności termicznej."
+                                ]
+                            }
                         }
                     },
                     {
                         "title": "IDEAL 7000",
                         "path": "ideal-7000",
                         "img": "/images/products/windows/aluplast/IDEAL_7000_DOORS.jpg",
-                        "features": [],
-                        "description": {
-                            "title": "NOWOCZESNA ARCHITEKTURA",
-                            "paragraphs": [
-                                "Seria IDEAL 7000 otwiera nowe możliwości w produkcji drzwi zewnętrznych. Dzięki wielokomorowej budowie, głębokości zabudowy 85 mm i możliwości stosowania pakietów szybowych i wypełnień o szerokości do 50 mm udało się znacząco poprawić parametry izolacyjności termicznej konstrukcji, osiągając wartość Uf do 1,2 W/m2K."
-                            ]
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "NOWOCZESNA ARCHITEKTURA",
+                                "paragraphs": [
+                                    "Seria IDEAL 7000 otwiera nowe możliwości w produkcji drzwi zewnętrznych. Dzięki wielokomorowej budowie, głębokości zabudowy 85 mm i możliwości stosowania pakietów szybowych i wypełnień o szerokości do 50 mm udało się znacząco poprawić parametry izolacyjności termicznej konstrukcji, osiągając wartość Uf do 1,2 W/m2K."
+                                ]
+                            }
                         }
                     }
                 ]

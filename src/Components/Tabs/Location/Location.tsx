@@ -19,7 +19,7 @@ const Location = () => {
     const position: LatLngLiteral = { lat: 49.931719, lng: 18.316661 };
 
     return (
-        <div className="w-full h-full flex flex-col gap-[48px]">
+        <div className="w-full h-full flex flex-col gap-[48px] box">
             <div className="w-full">
                 <div className="relative">
                     <img

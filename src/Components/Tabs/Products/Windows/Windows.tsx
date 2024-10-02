@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { GlobalContext } from "../../../../App";
-import "./../../../../index.css";
 import useScrollAnimate from "../../../../Hooks/useScrollAnimate";
 
 const Windows = () => {

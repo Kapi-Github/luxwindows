@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import "./../../../../../index.css";
 import { GlobalContext } from "../../../../../App";
 import { useLocation, useNavigate } from "react-router-dom";
 import useScrollAnimate from "../../../../../Hooks/useScrollAnimate";

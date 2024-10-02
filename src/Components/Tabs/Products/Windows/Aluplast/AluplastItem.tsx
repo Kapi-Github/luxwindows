@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState, useRef } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { GlobalContext } from "../../../../../App";
-import "./../../../../../index.css";
 import React from "react";
+import useWindowWidth from "../../../../../Hooks/useWindowWidth";
 
 const Tabs = [
     {
@@ -24,6 +24,7 @@ const Tabs = [
 ];
 
 const AluplastItem = () => {
+    const width = useWindowWidth();
     const { data } = useContext(GlobalContext);
     const { category, item } = useParams();
     const navigate = useNavigate();
@@ -116,7 +117,7 @@ const AluplastItem = () => {
                         </span>
                     </div>
                     <div className="flex xl:flex-row xl:gap-x-[24px] flex-col max-xl:items-center gap-[64px] box">
-                        <div className="xl:flex-1 max-xl:w-full flex xl:flex-row flex-col-reverse items-center">
+                        <div className="xl:flex-1 max-xl:w-full flex xl:flex-row flex-col-reverse items-center xl:items-start">
                             <div className="flex flex-col">
                                 <img
                                     src={itemData.img}
@@ -132,22 +133,24 @@ const AluplastItem = () => {
                                     {itemData.title}
                                 </span>
                                 <div className="relative">
-                                    <div
-                                        className="absolute h-[48px] w-[160px] bg-gray-600 transition-all duration-300 ease-in-out"
-                                        style={{
-                                            left: `${left}px`,
-                                        }}
-                                    >
-                                        <div className="relative w-full h-full after:bg-gray-600 after:absolute after:w-[12px] after:h-[12px] after:rotate-45 after:left-1/2 after:-translate-x-1/2 after:top-full after:-translate-y-1/2"></div>
-                                    </div>
+                                    {width > 768 ? (
+                                        <div
+                                            className="absolute h-[48px] w-[160px] bg-gray-600 transition-all duration-300 ease-in-out"
+                                            style={{
+                                                left: `${left}px`,
+                                            }}
+                                        >
+                                            <div className="relative w-full h-full after:bg-gray-600 after:absolute after:w-[12px] after:h-[12px] after:rotate-45 after:left-1/2 after:-translate-x-1/2 after:top-full after:-translate-y-1/2"></div>
+                                        </div>
+                                    ) : null}
                                     <div className="w-full flex flex-col gap-[48px]">
-                                        <div className="border-b-[1px] border-b-gray-600 flex relative z-10">
+                                        <div className="border-b-[1px] border-b-gray-600 flex flex-wrap relative z-10">
                                             {tabs.map((tab, index) => (
                                                 <div
                                                     key={`aluplast-tab-${index}`}
-                                                    className={`cursor-pointer flex justify-center w-[160px] py-[12px] transition-all duration-150 ease-in-out ${
+                                                    className={`cursor-pointer max-md:flex-1 max-md:basis-[160px] flex justify-center md:w-[160px] py-[12px] transition-all duration-150 ease-in-out ${
                                                         openedTab === index + 1
-                                                            ? "text-white"
+                                                            ? "md:text-white max-md:hover:bg-gray-400"
                                                             : "hover:bg-gray-400"
                                                     }`}
                                                     onClick={() => {
@@ -160,7 +163,7 @@ const AluplastItem = () => {
                                                         ] = el)
                                                     }
                                                 >
-                                                    <span className="font-light tracking-wider">
+                                                    <span className="font-light tracking-wider whitespace-nowrap">
                                                         {tab.title}
                                                     </span>
                                                 </div>

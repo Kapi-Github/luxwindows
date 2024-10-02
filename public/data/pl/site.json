@@ -229,6 +229,16 @@
             }
         ]
     },
+    "ourCompany": {
+        "img": "/images/about_company.jpg",
+        "title": "20 lat doświadczenia w stolarce okiennej - nowe spojrzenie w przyszłość",
+        "text": [
+            "Firma Lux Windows powstała z pasji do okien. Wieloletni pracownicy branży postanowili połączyć swoje doświadczenie oraz wiedzę, a w odpowiedzi na potrzeby naszych klientów stworzyli dla Was miejsce, gdzie możecie czuć się pewnie i zawsze liczyć na zaangażowanie i elastyczność pracowników Lux Windows.",
+            "Od prawie 20 lat założyciele firmy produkują okna, drzwi, systemy przesuwne oraz rolety i moskitiery dla firm z całej Europy. Dzięki ich zaangażowaniu i doświadczeniu odbiorcy w Belgii, Holandii czy Niemczech mogą cieszyć się nowoczesnymi, ciepłymi i jasnymi wnętrzami.",
+            "Dziś także i Ty możesz skorzystać z naszych produktów, aby dostarczyć te lata doświadczenia i jakość wykonania prosto do swoich klientów - wszystko to zawiera się w naszych oknach i drzwiach.",
+            "Bogactwo asortymentu, różnorodność kolorów, uważność do detali oraz szeroka gama dodatków powodują, że gusta każdego klienta zostaną zaspokojone."
+        ]
+    },
     "location": {
         "title": "Lokalizacja",
         "header": "Znajdziesz nas tutaj"
@@ -241,8 +251,8 @@
                 "img": "/images/languages/pl.png"
             },
             {
-                "phone": "+48 698 492 319",
-                "img": "/images/languages/pl.png"
+                "phone": "+32 498 152 950",
+                "img": "/images/languages/be.png"
             }
         ],
         "email": "kontakt@luxwindows.eu"

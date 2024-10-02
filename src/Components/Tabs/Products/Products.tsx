@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { GlobalContext } from "../../../App";
 import useScrollAnimate from "../../../Hooks/useScrollAnimate";
 import "./Products.css";
-import "./../../../index.css";
 
 const Products = () => {
     const { data, moveToPage } = useContext(GlobalContext);

@@ -28,7 +28,7 @@ const Footer = () => {
                                 <img
                                     src={phone.img}
                                     alt="Phone image"
-                                    className="h-[12px]"
+                                    className="w-[24px]"
                                 />
                                 {phone.phone}
                             </a>

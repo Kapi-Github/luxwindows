@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { GlobalContext } from "../../../App";
-import "./../../../index.css";
 
 const HomePage = () => {
     const { data } = useContext(GlobalContext);

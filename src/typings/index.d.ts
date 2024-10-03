@@ -18,5 +18,6 @@ interface TabOpened {
 
 interface Route {
     name: string;
+    element?: string;
     key: string;
 }

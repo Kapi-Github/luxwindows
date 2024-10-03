@@ -2,22 +2,20 @@ import { createContext, useEffect, useState } from "react";
 import Header from "./Components/Header/Header";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import languages from "./data/languages.json";
-import Contact from "./Components/Tabs/Contact/Contact";
+import Contact from "./Components/Routes/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import axios from "axios";
 import Loading from "./Assets/Loading.tsx/Loading";
-import Location from "./Components/Tabs/Location/Location";
-import Products from "./Components/Tabs/Products/Products";
-import OurCompany from "./Components/Tabs/OurCompany/OurCompany";
-import AboutCompany from "./Components/Tabs/OurCompany/AboutCompany/AboutCompany";
-import Career from "./Components/Tabs/OurCompany/Career/Career";
-import Windows from "./Components/Tabs/Products/Windows/Windows";
-import Aluplast from "./Components/Tabs/Products/Windows/Aluplast/Aluplast";
-import Aluminum from "./Components/Tabs/Products/Aluminum/Aluminum";
-import Aluprof from "./Components/Tabs/Products/Aluminum/Aluprof/Aluprof";
+import Location from "./Components/Routes/Location/Location";
+import Products from "./Components/Routes/Products/Products";
+import Company from "./Components/Routes/Company/Company";
+import Windows from "./Components/Routes/Products/Windows/Windows";
+import Aluplast from "./Components/Routes/Products/Windows/Aluplast/Aluplast";
+import Aluminum from "./Components/Routes/Products/Aluminum/Aluminum";
+import Aluprof from "./Components/Routes/Products/Aluminum/Aluprof/Aluprof";
 import "./index.css";
-import AluplastItem from "./Components/Tabs/Products/Windows/Aluplast/AluplastItem";
-import HomePage from "./Components/Tabs/HomePage/HomePage";
+import AluplastItem from "./Components/Routes/Products/Windows/Aluplast/AluplastItem";
+import HomePage from "./Components/Routes/HomePage/HomePage";
 
 export const GlobalContext = createContext<GlobalContextDef>(
     {} as GlobalContextDef
@@ -101,15 +99,7 @@ function App() {
                             {/* Nasza firma */}
                             <Route
                                 path="nasza-firma"
-                                element={<OurCompany />}
-                            />
-                            <Route
-                                path="nasza-firma/o-firmie"
-                                element={<AboutCompany />}
-                            />
-                            <Route
-                                path="nasza-firma/kariera"
-                                element={<Career />}
+                                element={<Company />}
                             />
                             {/*  */}
                             {/* Kontakt */}

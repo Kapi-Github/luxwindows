@@ -60,11 +60,13 @@
         "key": "2"
     },
     {
-        "name": "/nasza-firma/o-firmie",
+        "name": "/nasza-firma",
+        "element": "#about",
         "key": "2-1"
     },
     {
-        "name": "/nasza-firma/kariera",
+        "name": "/nasza-firma",
+        "element": "#career",
         "key": "2-2"
     },
     {

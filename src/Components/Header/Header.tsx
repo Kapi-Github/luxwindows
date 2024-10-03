@@ -46,7 +46,11 @@ const Header = () => {
     const handleListElementClick = async (key: string) => {
         const { data } = await axios.get("/data/routes.json?url");
         const finded: Route = data.find((item: Route) => item.key === key);
-        navigate(finded.name);
+        if(finded.element && finded.element.includes("#")){
+            navigate(`${finded.name}/${finded.element}`)
+        }else{
+            navigate(finded.name);
+        }
         setClose();
     };
 

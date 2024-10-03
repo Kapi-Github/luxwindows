@@ -12,7 +12,7 @@ const Windows = () => {
                 <img
                     className="w-full object-cover h-[400px]"
                     src={data.windows.img}
-                    alt="Okna"
+                    alt={data.windows.title}
                 />
                 <span className="w-full h-full flex items-center justify-center bg-black text-center text-white font-light tracking-[2px] absolute left-1/2 top-0 -translate-x-1/2 bg-opacity-30 text-[84px] hover:bg-opacity-50 transition-all duration-300 ease-in-out pointer-events-none">
                     {data.windows.title}

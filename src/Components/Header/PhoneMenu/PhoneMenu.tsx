@@ -1,8 +1,10 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { MenuContext } from "../Header";
 import PhoneFirstTierList from "./PhoneFirstTierList";
 import useWindowWidth from "../../../Hooks/useWindowWidth";
+import { GlobalContext } from "../../../App";
+import languages from "./../../../data/languages.json";
 
 interface Props {
     data: Tab[];
@@ -17,10 +19,13 @@ const PhoneMenu = ({ data }: Props) => {
         setOpenedTabs,
         handleListElementClick,
     } = useContext(MenuContext);
+    const { defaultLanguage, setDefaultLanguage } = useContext(GlobalContext);
+    const [isLanguagesOpen, setIsLanguagesOpen] = useState<boolean>(false);
     const [isMenuOpened, setIsMenuOpen] = useState<boolean>(false);
 
     useEffect(() => {
         if (windowWidth === 1024) {
+            setIsLanguagesOpen(false);
             setIsMenuOpen(false);
         }
     }, [windowWidth]);
@@ -61,6 +66,7 @@ const PhoneMenu = ({ data }: Props) => {
                         third: null,
                     }));
             } else {
+                setIsLanguagesOpen(false);
                 setOpen(tab, key);
             }
         } else {
@@ -70,6 +76,7 @@ const PhoneMenu = ({ data }: Props) => {
     };
 
     const handleClose = () => {
+        setIsLanguagesOpen(false);
         setIsMenuOpen((prev) => !prev);
         setOpenedTabs({
             name: null,
@@ -106,12 +113,11 @@ const PhoneMenu = ({ data }: Props) => {
                 }`}
             >
                 {data &&
-                    data.map((tab, index) => (
+                    data.map((tab) => (
                         <div
                             key={`phone-menu-item-${tab.name}`}
-                            className={`transition-all duration-700 w-full flex flex-col border-black ${
-                                index !== 0 ? "border-t-[3px]" : "border-none"
-                            }`}
+                            className={`transition-all duration-700 w-full flex flex-col border-black border-b-[3px]
+                            `}
                         >
                             <button
                                 className={`w-full flex items-center justify-center border-black h-[50px]`}
@@ -139,6 +145,78 @@ const PhoneMenu = ({ data }: Props) => {
                             />
                         </div>
                     ))}
+                <div
+                    key={`phone-menu-item-${defaultLanguage.name}`}
+                    className={`transition-all duration-700 w-full flex flex-col border-black`}
+                >
+                    <button
+                        className={`w-full flex items-center justify-center border-black h-[50px]`}
+                        onClick={() => {
+                            setIsLanguagesOpen(!isLanguagesOpen);
+                            setOpenedTabs({
+                                name: null,
+                                first: null,
+                                second: null,
+                                third: null,
+                            });
+                        }}
+                    >
+                        <div className="flex gap-[4px] items-center">
+                            <img
+                                className="h-[16px]"
+                                src={defaultLanguage.source}
+                                alt={defaultLanguage.name}
+                            />
+                            <span className="font-medium text-[18px]">
+                                {defaultLanguage.name}
+                            </span>
+                        </div>
+                        {languages && languages.length ? (
+                            <Icon
+                                icon="mingcute:right-fill"
+                                className={`transition-all duration-500 ease-in-out ${
+                                    isLanguagesOpen ? "rotate-90" : "rotate-0"
+                                }`}
+                            />
+                        ) : null}
+                    </button>
+                    {languages &&
+                        languages.map((lang) => (
+                            <React.Fragment
+                                key={`phone-menu-item-${lang.name}`}
+                            >
+                                {lang.name !== defaultLanguage.name && (
+                                    <div
+                                        className={`transition-all duration-700 w-full flex flex-col justify-center overflow-hidden ${
+                                            isLanguagesOpen
+                                                ? "max-h-[450px] opacity-100 ease-[cubic-bezier(0.6,0.1,1,1)]"
+                                                : "max-h-0 opacity-80 ease-[cubic-bezier(0,0.99,0.01,1)]"
+                                        }`}
+                                    >
+                                        <button
+                                            className="w-full flex items-center justify-center h-[50px]"
+                                            onClick={() => {
+                                                setDefaultLanguage(lang);
+                                                setIsLanguagesOpen(false);
+                                                setIsMenuOpen(false);
+                                            }}
+                                        >
+                                            <div className="flex gap-[4px] items-center">
+                                                <img
+                                                    className="h-[16px]"
+                                                    src={lang.source}
+                                                    alt={lang.name}
+                                                />
+                                                <span className="font-medium text-[18px]">
+                                                    {lang.name}
+                                                </span>
+                                            </div>
+                                        </button>
+                                    </div>
+                                )}
+                            </React.Fragment>
+                        ))}
+                </div>
             </div>
         </div>
     );

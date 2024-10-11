@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Producten",
+        "first": "true",
+        "key": "1",
+        "subtabs": [
+            {
+                "name": "Vensters",
+                "key": "1-1",
+                "subtabs": [
+                    {
+                        "name": "Aluplast",
+                        "key": "1-1-1",
+                        "subtabs": []
+                    }
+                ]
+            },
+            {
+                "name": "Buitendeuren",
+                "key": "1-2",
+                "subtabs": [
+                    {
+                        "name": "Deuren onmiddellijk beschikbaar",
+                        "key": "1-2-1",
+                        "subtabs": [
+                            {
+                                "name": "Vol",
+                                "key": "1-2-1-1",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Geglazuurd - RVS",
+                                "key": "1-2-1-2",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Met PCV-frame",
+                                "key": "1-2-1-3",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Met aanvraag",
+                                "key": "1-2-1-4",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Technisch",
+                                "key": "1-2-1-5",
+                                "subtabs": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Op maat gemaakte deuren",
+                        "key": "1-2-2",
+                        "subtabs": []
+                    }
+                ]
+            },
+            {
+                "name": "Aluminium",
+                "key": "1-3",
+                "subtabs": [
+                    {
+                        "name": "Aluprof",
+                        "key": "1-3-1",
+                        "subtabs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ons bedrijf",
+        "first": "true",
+        "key": "2",
+        "subtabs": [
+            {
+                "name": "Over het bedrijf",
+                "key": "2-1",
+                "subtabs": []
+            },
+            {
+                "name": "Carrière",
+                "key": "2-2",
+                "subtabs": []
+            }
+        ]
+    },
+    {
+        "name": "Contact",
+        "first": "true",
+        "key": "3",
+        "subtabs": []
+    },
+    {
+        "name": "Locatie",
+        "first": "true",
+        "key": "4",
+        "subtabs": []
+    }
+]

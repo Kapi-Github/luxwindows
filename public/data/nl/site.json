@@ -1,0 +1,322 @@
+{
+    "homepage": {
+        "title": "Ontdek onze wereld",
+        "img": "/images/home_page.jpg"
+    },
+    "products": {
+        "title": "Onze producten",
+        "key": "1",
+        "subtabs": [
+            {
+                "title": "Vensters",
+                "key": "1-1",
+                "description": "Onze moderne ramen bieden uitstekende thermische en akoestische isolatie en garanderen het hele jaar door comfort. Ze zijn gemaakt van materialen van de hoogste kwaliteit en combineren een elegant ontwerp met duurzaamheid, waardoor ze een ideale keuze zijn voor elk huis.",
+                "img": "/images/products/windows/windows.png"
+            },
+            {
+                "title": "buitendeuren",
+                "key": "1-2",
+                "description": "Onze buitendeuren combineren elegantie en veiligheid en bieden solide bescherming en een stijlvolle uitstraling. Dankzij hun hoge weerstand tegen weersomstandigheden zijn ze een duurzaam onderdeel van elke entree.",
+                "img": "/images/products/doors/doors.png"
+            },
+            {
+                "title": "Aluminium",
+                "key": "1-3",
+                "description": "Aluminium is een modern materiaal dat licht en duurzaam is, ideaal voor innovatieve architectonische ontwerpen. De corrosiebestendigheid maakt het een uitstekende keuze voor jarenlang gebruik.",
+                "img": "/images/products/aluminum/aluminum.png"
+            }
+        ]
+    },
+    "windows": {
+        "title": "Vensters",
+        "key": "1-1",
+        "description": "Onze ramen zijn een combinatie van moderne technologie en esthetiek, die zorgen voor comfort en energiebesparing. Ze worden gekenmerkt door uitstekende thermische en akoestische isolatie, waardoor het interieur wordt beschermd tegen geluid en warmteverlies. Ze zijn gemaakt van duurzame materialen, zijn bestand tegen weersomstandigheden en zijn gemakkelijk te Dankzij de verscheidenheid aan stijlen en kleuren passen ze perfect in elk architectonisch ontwerp en voegen ze elegantie en functionaliteit toe. Door voor onze ramen te kiezen, investeert u jarenlang in betrouwbaarheid en comfort.",
+        "img": "/images/products/windows/windows.png",
+        "subtabs": [
+            {
+                "title": "Aluplast",
+                "img": "/images/products/windows/aluplast/aluplast.jpg",
+                "key": "1-1-1",
+                "description": "Onze ramen, gebaseerd op Aluplast-systemen, combineren moderne technologie met esthetiek en zorgen voor een uitstekende thermische en akoestische isolatie. Ze zijn gemaakt van duurzame materialen, zijn bestand tegen weersomstandigheden en passen perfect in elk architectonisch ontwerp. Door in onze ramen te investeren, kiest u voor betrouwbaarheid , comfort en energiebesparing."
+            }
+        ]
+    },
+    "aluplast": {
+        "title": "Aluplast",
+        "img": "/images/products/windows/aluplast/aluplast.jpg",
+        "key": "1-1-1",
+        "descritpion": "Onze ramen, gebaseerd op Aluplast-systemen, combineren moderne technologie met esthetiek en zorgen voor een uitstekende thermische en akoestische isolatie. Ze zijn gemaakt van duurzame materialen, zijn bestand tegen weersomstandigheden en passen perfect in elk architectonisch ontwerp. Door te investeren in onze ramen kiest u voor betrouwbaarheid, comfort en energiebesparing.",
+        "tabnames": [
+            {
+                "title": "Specificatie",
+                "tab": "features"
+            },
+            {
+                "title": "Beschrijving",
+                "tab": "description"
+            },
+            {
+                "title": "Kleur",
+                "tab": "color"
+            },
+            {
+                "title": "Downloadbaar",
+                "tab": "download"
+            }
+        ],
+        "subtabs": [
+            {
+                "title": "PVC-ramen",
+                "path": "okna-pvc",
+                "subtabs": [
+                    {
+                        "title": "IDEAL 8000",
+                        "path": "ideal-8000",
+                        "img": "/images/products/windows/aluplast/IDEAL_8000.jpg",
+                        "details": {
+                            "features": [
+                                "6-kamersysteem",
+                                "inbouwdiepte 85 mm",
+                                "systeem met middenafdichting (3 afdichtingen)",
+                                "klassiek deurbladdesign (classic-line niet vlak)",
+                                "RC2 inbraakwerendheidsklasse bevestigd door tests",
+                                "verkrijgbaar in vele kleurvarianten",
+                                "De warmteoverdrachtscoëfficiënt Uw bedraagt ​​0,76 W/m²K (voor het referentieraam met afmetingen 1230*1480 mm, Ug = 0,5 W/m²K)",
+                                "V-las standaard"
+                            ],
+                            "description": {
+                                "title": "De verborgen kracht van technologie",
+                                "paragraphs": [
+                                    "IDEAL 8000 is een combinatie van de modernste technische oplossingen om bovengemiddelde eigenschappen te verkrijgen, waarbij warmte, stilte, veiligheid en unieke esthetiek van het raam worden gegarandeerd.",
+                                    "Dit is een uitstekende propositie voor iedereen die het hoogste wooncomfort verwacht."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL NEO MD",
+                        "path": "ideal-neo-md",
+                        "img": "/images/products/windows/aluplast/IDEAL_NEO_MD.jpg",
+                        "details": {
+                            "features": [
+                                "6-kamersysteem",
+                                "inbouwdiepte 76 mm",
+                                "systeem met externe afdichting (3 afdichtingen)",
+                                "eenvoudige, symmetrische, kubistische vorm en visuele lichtheid van de structuur",
+                                "smalle, expressieve kortingen",
+                                "klassieke middenafdichting – betere bescherming tegen inbraak",
+                                "de warmteoverdrachtscoëfficiënt Uw bedraagt ​​0,76 W/m²K (voor een referentieraam met afmetingen 1230x1480mm, Ug = 0,5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "EENVOUDIGE STRUCTUREN EN MINIMALISTISCH DESIGN",
+                                "paragraphs": [
+                                    "IDEAL NEO MD is een uiterst aantrekkelijk ontwerpvoorstel voor klanten die waarde hechten aan tijdloze stijl. Een eenvoudige, symmetrische, kubistische vorm is het onderscheidende kenmerk van de ramen gemaakt in dit systeem.",
+                                    "Het IDEAL NEO MD-systeem is geïnspireerd op de Bauhaus-stijl. Deze stijl heeft ooit een revolutie teweeggebracht in de architectuur. Een eenvoudig en mooi ontwerp voor iedereen. Veel licht en een combinatie van binnen- en buitenelementen."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 4000",
+                        "path": "ideal-4000",
+                        "img": "/images/products/windows/aluplast/IDEAL_4000.jpg",
+                        "details": {
+                            "features": [
+                                "5-kamersysteem in standaardcombinatie",
+                                "inbouwdiepte 70 mm",
+                                "systeem met externe afdichting (2 afdichtingen)",
+                                "RC2 inbraakwerendheidsklasse bevestigd door tests",
+                                "verkrijgbaar in talrijke kleurvarianten",
+                                "de warmteoverdrachtscoëfficiënt Uw bedraagt ​​0,86 W/m²K (voor een referentieraam met afmetingen van 1230x1480mm, Ug = 0,5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "MODERNE ARCHITECTUUR",
+                                "paragraphs": [
+                                    "De sterke constructie van profielen met een inbouwdiepte van 70 mm en grote kamers voor stalen verstevigingen garanderen optimale statische parameters en maken de productie van grote ramen mogelijk.",
+                                    "De meerkamerstructuur garandeert een hoge thermische en akoestische isolatie."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 7000",
+                        "path": "ideal-7000",
+                        "img": "/images/products/windows/aluplast/IDEAL_7000.jpg",
+                        "details": {
+                            "features": [
+                                "6-kamersysteem",
+                                "inbouwdiepte 85 mm",
+                                "systeem met externe afdichting (2 afdichtingen)",
+                                "klassiek deurbladdesign (classic-line niet vlak)",
+                                "RC2 inbraakwerendheidsklasse bevestigd door tests",
+                                "verkrijgbaar in talrijke kleurvarianten",
+                                "de warmteoverdrachtscoëfficiënt Uw bedraagt ​​0,79 W/m²K (voor het referentieraam met afmetingen 1230x1480mm, Ug = 0,5 W/m²K)",
+                                "V-Perfect-las standaard"
+                            ],
+                            "description": {
+                                "title": "MODERNE ARCHITECTUUR",
+                                "paragraphs": [
+                                    "IDEAL 7000 is een voorbeeld van het synergetische gebruik van de eigenschappen van profielen en isolatieglas om ramen te creëren met een zeer lage thermische transmissie.",
+                                    "De thermische transmissiecoëfficiënt van de profielen verkregen in de tests met de waarde van Uf = 1,1-1,0 W/m2K, gecombineerd met de mogelijkheid om bredere en warmere glaspakketten te gebruiken, garandeert de beste thermische parameters van het raam."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Schuifsystemen",
+                "path": "systemy-przesuwne",
+                "subtabs": [
+                    {
+                        "title": "HST 85",
+                        "path": "hst-85",
+                        "img": "/images/products/windows/aluplast/HST_85.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "ÉÉN SYSTEEM – DRIE OPLOSSINGEN",
+                                "paragraphs": [
+                                    "Het nieuwe deursysteem HST 85 mm is enerzijds een antwoord op de verwachtingen met betrekking tot het creëren van steeds grotere raamconstructies, en anderzijds door ontwerpwijzigingen en vooral de mogelijkheid om bredere beglazingspakketten te gebruiken tot 51 mm breed maakt het mogelijk om bovengemiddelde thermische isolatie-eigenschappen te verkrijgen. Nieuw in dit segment is de modulaire aard van de structuur, die drie willekeurige productconfiguraties mogelijk maakt, afhankelijk van de verwachte thermische parameters.",
+                                    "De ideale oplossing voor wie een comfortabele verbinding wil tussen het interieur en het terras en een panoramisch uitzicht wil bereiken dankzij een groot glasoppervlak, is het gebruik van HST 85 mm hefschuifdeuren. Het onbetwiste voordeel van dit type terras deuren zijn de mogelijke afmetingen van de constructie."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "SMART SLIDE",
+                        "path": "smart-slide",
+                        "img": "/images/products/windows/aluplast/SMART_SLIDE.jpg",
+                        "details": {
+                            "features": [
+                                "frame-inbouwdiepte 140 mm",
+                                "70 mm vleugel",
+                                "mogelijkheid tot beglazing met pakketten tot 40 mm",
+                                "modern klassiek-lijnontwerp",
+                                "mogelijke A+C-schema's",
+                                "verborgen montagemechanismen",
+                                "verkrijgbaar in drie kernkleuren: wit, bruin, antraciet en een ruim assortiment decoratiefolies"
+                            ],
+                            "description": {
+                                "title": "HOGE DICHTHEID VAN BOUW",
+                                "paragraphs": [
+                                    "Smart-slide schuifdeuren zijn een nieuwe oplossing in het schuifdeuren/ramen segment, die uiteindelijk een aantrekkelijk alternatief kunnen zijn voor PSK/PATIO terrasdeuren. Zowel voor eengezinswoningen, maar ook voor utiliteitsvoorzieningen is dit een mooie oplossing waar deuren naar terrassen worden verwacht, gebruiksgemak en betrouwbaarheid.",
+                                    "Het innovatieve sluitmechanisme maakt een eenvoudige en intuïtieve bediening mogelijk, vergelijkbaar met oplossingen die worden gebruikt in hefschuifdeuren, type HST.",
+                                    "Gespecialiseerd raambeslag garandeert dat de vleugel, na ontgrendeling, vrij en zonder de minste weerstand op de wagens beweegt ten opzichte van het ongeopende deel van de constructie. Het vergrendelingsmechanisme zorgt voor een zachte sluiting van de vleugel in het kozijn, en dus een gemakkelijke bediening van de schuifdeur."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Deursystemen",
+                "path": "systemy-drzwiowe",
+                "subtabs": [
+                    {
+                        "title": "IDEAL 4000",
+                        "path": "ideal-4000",
+                        "img": "/images/products/windows/aluplast/IDEAL_4000_DOORS.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "MODERNE ARCHITECTUUR",
+                                "paragraphs": [
+                                    "De serie IDEAL 4000 is het basisaanbod op het gebied van aluplast buitendeuroplossingen. Dankzij de meerkamerconstructie met een diepte van 70 mm en het gebruik van een deurdorpel met thermische isolatielaag hebben ze een zeer goede thermische isolatie parameter."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 7000",
+                        "path": "ideal-7000",
+                        "img": "/images/products/windows/aluplast/IDEAL_7000_DOORS.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "MODERNE ARCHITECTUUR",
+                                "paragraphs": [
+                                    "De IDEAL 7000-serie opent nieuwe mogelijkheden bij de productie van buitendeuren. Dankzij de meerkamerstructuur, de inbouwdiepte van 85 mm en de mogelijkheid om glaspakketten en vullingen tot 50 mm breed te gebruiken, was het mogelijk om de de thermische isolatieparameters van de constructie, waardoor een Uf-waarde tot 1,2 W/m2K wordt bereikt."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "company": {
+        "title": "Ons bedrijf",
+        "img": "/images/about_company.jpg",
+        "header": "20 jaar ervaring in raamschrijnwerk - een nieuwe blik op de toekomst",
+        "text": [
+            "Het bedrijf Lux Windows is ontstaan ​​uit passie voor ramen. Jarenlange medewerkers uit de sector besloten hun ervaring en kennis te combineren en als antwoord op de behoeften van onze klanten creëerden zij voor u een plek waar u zich zelfverzekerd kunt voelen en altijd kunt rekenen op de inzet en flexibiliteit van de medewerkers van Lux Windows.",
+            "Al bijna 20 jaar produceren de oprichters van het bedrijf ramen, deuren, schuifsystemen, rolgordijnen en horren voor bedrijven uit heel Europa. Dankzij hun inzet en ervaring kunnen klanten in België, Nederland en Duitsland genieten van moderne, warme en lichte interieurs.",
+            "Vandaag kunt u ook onze producten gebruiken om deze jarenlange ervaring en kwaliteit van vakmanschap rechtstreeks aan uw klanten te leveren - dit alles is inbegrepen in onze ramen en deuren.",
+            "De rijkdom van het assortiment, de verscheidenheid aan kleuren, aandacht voor detail en een breed scala aan accessoires zorgen ervoor dat de smaak van elke klant tevreden zal zijn."
+        ]
+    },
+    "location": {
+        "title": "Locatie",
+        "header": "Hier vindt u ons"
+    },
+    "contact": {
+        "title": "Contact",
+        "img": "/images/contact.jpg",
+        "owners": {
+            "title": "Eigenaren",
+            "people": [
+                {
+                    "name": "Tomasz Marek",
+                    "phone": "+48 792 047 276",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Piotr Szydłowski",
+                    "phone": "+48 784 004 272",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Damian Robenek",
+                    "phone": "+48 796 661 044",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Michał Trybuś",
+                    "phone": "+48 691 144 211",
+                    "img": "/images/profile.jpeg"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "contact": "Neem contact met ons op",
+        "phones": [
+            {
+                "phone": "+48 502 304 182",
+                "img": "/images/languages/pl.png"
+            },
+            {
+                "phone": "+32 498 152 950",
+                "img": "/images/languages/be.png"
+            }
+        ],
+        "email": "kontakt@luxwindows.eu"
+    }
+}

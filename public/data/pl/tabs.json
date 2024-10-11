@@ -1,6 +1,7 @@
 [
     {
         "name": "Produkty",
+        "first": "true",
         "key": "1",
         "subtabs": [
             {
@@ -71,6 +72,7 @@
     },
     {
         "name": "Nasza firma",
+        "first": "true",
         "key": "2",
         "subtabs": [
             {
@@ -87,11 +89,13 @@
     },
     {
         "name": "Kontakt",
+        "first": "true",
         "key": "3",
         "subtabs": []
     },
     {
         "name": "Lokalizacja",
+        "first": "true",
         "key": "4",
         "subtabs": []
     }

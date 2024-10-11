@@ -3,35 +3,35 @@ import { GlobalContext } from "../../../App";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Company = () => {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const { data } = useContext(GlobalContext);
-    const {hash} = useLocation()
+    const { hash } = useLocation();
 
     useEffect(() => {
-        if(hash){
-            const div = document.querySelector(hash)
-            if(div){
+        if (hash) {
+            const div = document.querySelector(hash);
+            if (div) {
                 setTimeout(() => {
-                    div.scrollIntoView({behavior: "smooth"})
-                }, 500)
-            }else{
+                    div.scrollIntoView({ behavior: "smooth" });
+                }, 500);
+            } else {
                 window.scrollTo({
                     top: 0,
-                    behavior: 'smooth',
-                })
+                    behavior: "smooth",
+                });
             }
         }
-    }, [hash])
+    }, [hash]);
 
     useEffect(() => {
         const handleScroll = () => {
-            navigate(window.location.pathname)
-        }
+            navigate(window.location.pathname);
+        };
 
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener("scroll", handleScroll);
 
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener("scroll", handleScroll);
         };
     }, []);
 
@@ -53,20 +53,17 @@ const Company = () => {
                 <span className="text-center text-[20px] font-normal">
                     {data.company.header}
                 </span>
-                {data.company.text.map(
-                    (paragraph: string, index: number) => (
-                        <p
-                            key={`about-company-paragraph-${index}`}
-                            className="text-[18px] font-light"
-                        >
-                            {paragraph}
-                        </p>
-                    )
-                )}
+                {data.company.text.map((paragraph: string, index: number) => (
+                    <p
+                        key={`about-company-paragraph-${index}`}
+                        className="text-[18px] font-light"
+                    >
+                        {paragraph}
+                    </p>
+                ))}
             </div>
-            <div id="about">
-                ert
-            </div>
+            <div id="about"></div>
+            <div id="career"></div>
         </div>
     );
 };

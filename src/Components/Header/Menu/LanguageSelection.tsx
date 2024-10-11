@@ -31,8 +31,8 @@ const LanguageSelection = () => {
                 <ul
                     className={`absolute w-full top-full overflow-hidden z-[100000] shadow-[0_0_12px_rgb(127,127,127)] bg-white ${
                         isLanguagesOpen
-                            ? "max-h-[120px] opacity-100"
-                            : "max-h-0 opacity-0"
+                            ? "max-h-[120px] opacity-100 pointer-events-auto"
+                            : "max-h-0 opacity-0 pointer-events-none"
                     } transition-all duration-300 ease-in-out`}
                     onMouseEnter={() => setIsLanguagesOpen(true)}
                     onMouseLeave={() => setIsLanguagesOpen(false)}

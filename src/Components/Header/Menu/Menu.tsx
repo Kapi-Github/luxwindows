@@ -27,7 +27,9 @@ const Menu = ({ data }: Props) => {
                                 className="flex flex-1 h-full items-center gap-[4px] cursor-pointer px-[8px]"
                                 onClick={() => handleListElementClick(tab.key)}
                             >
-                                <span>{tab.name}</span>
+                                <span className="whitespace-nowrap">
+                                    {tab.name}
+                                </span>
                                 {tab.subtabs.length > 0 && (
                                     <Icon
                                         icon="mingcute:right-fill"

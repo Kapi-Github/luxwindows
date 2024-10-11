@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Products",
+        "first": "true",
+        "key": "1",
+        "subtabs": [
+            {
+                "name": "Windows",
+                "key": "1-1",
+                "subtabs": [
+                    {
+                        "name": "Aluplast",
+                        "key": "1-1-1",
+                        "subtabs": []
+                    }
+                ]
+            },
+            {
+                "name": "External doors",
+                "key": "1-2",
+                "subtabs": [
+                    {
+                        "name": "Doors available immediately",
+                        "key": "1-2-1",
+                        "subtabs": [
+                            {
+                                "name": "Full",
+                                "key": "1-2-1-1",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Glazed - Inox",
+                                "key": "1-2-1-2",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "With PVC frame",
+                                "key": "1-2-1-3",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "With application",
+                                "key": "1-2-1-4",
+                                "subtabs": []
+                            },
+                            {
+                                "name": "Technical",
+                                "key": "1-2-1-5",
+                                "subtabs": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Custom-made doors",
+                        "key": "1-2-2",
+                        "subtabs": []
+                    }
+                ]
+            },
+            {
+                "name": "Aluminum",
+                "key": "1-3",
+                "subtabs": [
+                    {
+                        "name": "Aluprof",
+                        "key": "1-3-1",
+                        "subtabs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Our company",
+        "first": "true",
+        "key": "2",
+        "subtabs": [
+            {
+                "name": "About the company",
+                "key": "2-1",
+                "subtabs": []
+            },
+            {
+                "name": "Career",
+                "key": "2-2",
+                "subtabs": []
+            }
+        ]
+    },
+    {
+        "name": "Contact",
+        "first": "true",
+        "key": "3",
+        "subtabs": []
+    },
+    {
+        "name": "Location",
+        "first": "true",
+        "key": "4",
+        "subtabs": []
+    }
+]

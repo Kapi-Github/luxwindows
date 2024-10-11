@@ -21,3 +21,9 @@ interface Route {
     element?: string;
     key: string;
 }
+
+interface Person {
+    name: string;
+    phone: string;
+    img: string;
+}

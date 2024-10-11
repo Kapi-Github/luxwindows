@@ -29,6 +29,9 @@ const Path = () => {
             if (key) {
                 res.data.forEach((item: Tab) => {
                     if (item.key === key.split("-")[0]) {
+                        if ("first" in item) {
+                            setIsTitle(true);
+                        }
                         if (!key.split("-")[1]) {
                             setIsTitle(true);
                         }

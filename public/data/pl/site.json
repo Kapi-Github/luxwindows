@@ -46,6 +46,24 @@
         "img": "/images/products/windows/aluplast/aluplast.jpg",
         "key": "1-1-1",
         "descritpion": "Nasze okna, oparte na systemach Aluplast, łączą nowoczesną technologię z estetyką, zapewniając doskonałą izolację termiczną i akustyczną. Wykonane z trwałych materiałów, są odporne na warunki atmosferyczne i idealnie wpasowują się w każdy projekt architektoniczny. Inwestując w nasze okna, wybierasz niezawodność, komfort i oszczędność energii.",
+        "tabnames": [
+            {
+                "title": "Specyfikacja",
+                "tab": "features"
+            },
+            {
+                "title": "Opis",
+                "tab": "description"
+            },
+            {
+                "title": "Kolorystyka",
+                "tab": "color"
+            },
+            {
+                "title": "Do pobrania",
+                "tab": "download"
+            }
+        ],
         "subtabs": [
             {
                 "title": "Okna PVC",
@@ -73,7 +91,7 @@
                                     "To doskonała propozycja dla wszystkich, którzy oczekują komfortu mieszkania na najwyższym poziomie."
                                 ]
                             },
-                            "color": ["czerwony"],
+                            "color": [],
                             "download": ""
                         }
                     },
@@ -97,7 +115,9 @@
                                     "IDEAL NEO MD to niezwykle atrakcyjna wzorniczo propozycja dla klientów ceniących ponadczasową stylistykę. Prosty, symetryczny, kubistyczny kształt to wyróżnik okien wykonanych w tym systemie.",
                                     "System IDEAL NEO MD został zainspirowany stylem Bauhaus. Styl ten niegdyś zrewolucjonizował architekturę. Prosty i piękny projekt dla każdego. Dużo światła i połączenie wnętrza z elementami z zewnątrz."
                                 ]
-                            }
+                            },
+                            "color": [],
+                            "download": ""
                         }
                     },
                     {
@@ -119,7 +139,9 @@
                                     "Mocna konstrukcja profili o głębokości zabudowy 70 mm oraz duże komory na wzmocnienia stalowe gwarantują optymalne parametry statyczne i umożliwiają wykonanie okien o dużych gabarytach.",
                                     "Wielokomorowa budowa to gwarancja wysokiej izolacyjności cieplnej i akustycznej."
                                 ]
-                            }
+                            },
+                            "color": [],
+                            "download": ""
                         }
                     },
                     {
@@ -143,7 +165,9 @@
                                     "IDEAL 7000 to przykład synergicznego wykorzystania właściwości profili i szyb zespolonych w celu tworzenia okien charakteryzujących się bardzo niską przenikalnością cieplną.",
                                     "Uzyskany w badaniach współczynnik przenikalności cieplnej profili o wartości Uf=1,1-1,0 W/m2K w połączeniu z możliwością stosowania szerszych i cieplejszych pakietów szybowych gwarantuje najlepsze parametry cieplne okna."
                                 ]
-                            }
+                            },
+                            "color": [],
+                            "download": ""
                         }
                     }
                 ]
@@ -164,7 +188,9 @@
                                     "Nowy system drzwi HST 85 mm jest z jednej strony odpowiedzią na oczekiwania w zakresie tworzenia coraz większych konstrukcji okiennych, a z drugiej strony poprzez zmiany konstrukcyjne, a przede wszystkim możliwość stosowania szerszych pakietów szybowych o szerokości do 51 mm, pozwala uzyskiwać ponadprzeciętne właściwości w zakresie izolacyjności cieplnej. Nowością w tym segmencie jest modułowy charakter konstrukcji, co umożliwia trzy dowolne konfiguracje produktu, w zależności od oczekiwanych parametrów cieplnych.",
                                     "Idealnym rozwiązaniem dla pragnących komfortowego połączenia wnętrza z tarasem oraz panoramicznego widoku osiąganego dzięki dużej powierzchni przeszklonej jest zastosowanie drzwi unoszono-przesuwnych HST 85 mm. Niewątpliwą zaletą tego typu drzwi tarasowych są możliwe do wykonania wymiary konstrukcji."
                                 ]
-                            }
+                            },
+                            "color": [],
+                            "download": ""
                         }
                     },
                     {
@@ -188,7 +214,9 @@
                                     "Innowacyjny mechanizm zamykania pozwala na prostą i intuicyjną obsługę, zbliżoną do rozwiązań stosowanych w drzwiach unoszono-przesuwnych, typu HST.",
                                     "Specjalistyczne okucia okienne gwarantują, że skrzydło po jego odblokowaniu swobodnie i bez najmniejszego oporu przesuwa się na wózkach względem nieotwieranej części konstrukcji. Mechanizm blokujący pozwala na delikatne zamykanie skrzydła w ramie, a tym samym łatwą obsługę drzwi przesuwnych."
                                 ]
-                            }
+                            },
+                            "color": [],
+                            "download": ""
                         }
                     }
                 ]
@@ -208,7 +236,9 @@
                                 "paragraphs": [
                                     "Seria IDEAL 4000 to podstawowa propozycja w zakresie rozwiązań drzwi zewnętrznych aluplast. Dzięki wielokomorowej zabudowie o głębokości 70 mm i zastosowaniu progu drzwiowego z przekładką termoizolacyjną, posiadają bardzo dobre parametry izolacyjności termicznej."
                                 ]
-                            }
+                            },
+                            "color": [],
+                            "download": ""
                         }
                     },
                     {
@@ -222,7 +252,9 @@
                                 "paragraphs": [
                                     "Seria IDEAL 7000 otwiera nowe możliwości w produkcji drzwi zewnętrznych. Dzięki wielokomorowej budowie, głębokości zabudowy 85 mm i możliwości stosowania pakietów szybowych i wypełnień o szerokości do 50 mm udało się znacząco poprawić parametry izolacyjności termicznej konstrukcji, osiągając wartość Uf do 1,2 W/m2K."
                                 ]
-                            }
+                            },
+                            "color": [],
+                            "download": ""
                         }
                     }
                 ]
@@ -243,6 +275,35 @@
     "location": {
         "title": "Lokalizacja",
         "header": "Znajdziesz nas tutaj"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "img": "/images/contact.jpg",
+        "owners": {
+            "title": "Właściciele",
+            "people": [
+                {
+                    "name": "Tomasz Marek",
+                    "phone": "+48 792 047 276",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Piotr Szydłowski",
+                    "phone": "+48 784 004 272",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Damian Robenek",
+                    "phone": "+48 796 661 044",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Michał Trybuś",
+                    "phone": "+48 691 144 211",
+                    "img": "/images/profile.jpeg"
+                }
+            ]
+        }
     },
     "footer": {
         "contact": "Skontaktuj się z nami",

@@ -1,0 +1,322 @@
+{
+    "homepage": {
+        "title": "Entdecken Sie unsere Welt",
+        "img": "/images/home_page.jpg"
+    },
+    "products": {
+        "title": "Unsere Produkte",
+        "key": "1",
+        "subtabs": [
+            {
+                "title": "Fenster",
+                "key": "1-1",
+                "description": "Unsere modernen Fenster bieten eine hervorragende Wärme- und Schalldämmung und garantieren so ganzjährigen Komfort. Sie bestehen aus Materialien höchster Qualität und vereinen elegantes Design mit Langlebigkeit, was sie zu einer idealen Wahl für jedes Zuhause macht.",
+                "img": "/images/products/windows/windows.png"
+            },
+            {
+                "title": "Außentüren",
+                "key": "1-2",
+                "description": "Unsere Außentüren vereinen Eleganz und Sicherheit und bieten soliden Schutz und ein stilvolles Erscheinungsbild. Dank ihrer hohen Witterungsbeständigkeit sind sie ein langlebiges Element jedes Eingangs.",
+                "img": "/images/products/doors/doors.png"
+            },
+            {
+                "title": "Aluminium",
+                "key": "1-3",
+                "description": "Aluminium ist ein modernes Material, das leicht und langlebig ist und sich ideal für innovative architektonische Designs eignet. Seine Korrosionsbeständigkeit macht es zu einer ausgezeichneten Wahl für den langjährigen Einsatz.",
+                "img": "/images/products/aluminum/aluminum.png"
+            }
+        ]
+    },
+    "windows": {
+        "title": "Fenster",
+        "key": "1-1",
+        "description": "Unsere Fenster sind eine Kombination aus moderner Technologie und Ästhetik und sorgen für Komfort und Energieeinsparungen. Sie zeichnen sich durch eine hervorragende Wärme- und Schalldämmung aus und schützen den Innenraum vor Lärm und Wärmeverlust. Sie bestehen aus langlebigen Materialien, sind witterungsbeständig und leicht zu pflegen. Dank einer Vielzahl von Stilen und Farben passen sie perfekt in jedes architektonische Design und sorgen für Eleganz und Funktionalität. Mit der Wahl unserer Fenster investieren Sie über Jahre hinweg in Zuverlässigkeit und Komfort.",
+        "img": "/images/products/windows/windows.png",
+        "subtabs": [
+            {
+                "title": "Aluplast",
+                "img": "/images/products/windows/aluplast/aluplast.jpg",
+                "key": "1-1-1",
+                "description": "Unsere auf Aluplast-Systemen basierenden Fenster verbinden moderne Technologie mit Ästhetik und gewährleisten eine hervorragende Wärme- und Schalldämmung. Sie bestehen aus langlebigen Materialien, sind witterungsbeständig und fügen sich perfekt in jedes architektonische Design ein. Durch die Investition in unsere Fenster entscheiden Sie sich für Zuverlässigkeit, Komfort und Energieeinsparung."
+            }
+        ]
+    },
+    "aluplast": {
+        "title": "Aluplast",
+        "img": "/images/products/windows/aluplast/aluplast.jpg",
+        "key": "1-1-1",
+        "descritpion": "Unsere auf Aluplast-Systemen basierenden Fenster verbinden moderne Technologie mit Ästhetik und gewährleisten eine hervorragende Wärme- und Schalldämmung. Sie bestehen aus langlebigen Materialien, sind witterungsbeständig und fügen sich perfekt in jedes architektonische Design ein. Durch die Investition in unsere Fenster entscheiden Sie sich für Zuverlässigkeit, Komfort und Energieeinsparung.",
+        "tabnames": [
+            {
+                "title": "Spezifikation",
+                "tab": "features"
+            },
+            {
+                "title": "Beschreibung",
+                "tab": "description"
+            },
+            {
+                "title": "Farbe",
+                "tab": "color"
+            },
+            {
+                "title": "Herunterladbar",
+                "tab": "download"
+            }
+        ],
+        "subtabs": [
+            {
+                "title": "PVC-Fenster",
+                "path": "okna-pvc",
+                "subtabs": [
+                    {
+                        "title": "IDEAL 8000",
+                        "path": "ideal-8000",
+                        "img": "/images/products/windows/aluplast/IDEAL_8000.jpg",
+                        "details": {
+                            "features": [
+                                "6-Kammer-System",
+                                "Einbautiefe 85 mm",
+                                "System mit Mitteldichtung (3 Dichtungen)",
+                                "klassisches Türblattdesign (classic-line nicht bündig)",
+                                "Einbruchhemmungsklasse RC2 durch Tests bestätigt",
+                                "in vielen Farbvarianten erhältlich",
+                                "Der Wärmedurchgangskoeffizient Uw beträgt 0,76 W/m²K (Für das Referenzfenster mit den Abmessungen 1230*1480mm beträgt Ug = 0,5 W/m²K)",
+                                "V-Schweißung serienmäßig"
+                            ],
+                            "description": {
+                                "title": "Die verborgene Kraft der Technologie",
+                                "paragraphs": [
+                                    "IDEAL 8000 ist eine Kombination modernster technischer Lösungen zur Erzielung überdurchschnittlicher Eigenschaften, die Wärme, Ruhe, Sicherheit und eine einzigartige Ästhetik des Fensters garantieren.",
+                                    "Das ist ein hervorragendes Angebot für alle, die höchsten Wohnkomfort erwarten."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL NEO MD",
+                        "path": "ideal-neo-md",
+                        "img": "/images/products/windows/aluplast/IDEAL_NEO_MD.jpg",
+                        "details": {
+                            "features": [
+                                "6-Kammer-System",
+                                "Einbautiefe 76 mm",
+                                "System mit Außendichtung (3 Dichtungen)",
+                                "einfache, symmetrische, kubistische Form und optische Leichtigkeit des Baukörpers",
+                                "schmale, ausdrucksstarke Rabatte",
+                                "Klassische Mitteldichtung – besserer Schutz vor Einbruch",
+                                "Der Wärmedurchgangskoeffizient Uw beträgt 0,76 W/m²K (Für ein Referenzfenster mit den Abmessungen 1230 x 1480 mm beträgt Ug = 0,5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "EINFACHE STRUKTUREN UND MINIMALISTISCHES DESIGN",
+                                "paragraphs": [
+                                    "IDEAL NEO MD ist ein äußerst attraktives Designangebot für Kunden, die Wert auf zeitlosen Stil legen. Eine einfache, symmetrische, kubistische Form ist das charakteristische Merkmal der Fenster, die in diesem System hergestellt werden.",
+                                    "Das IDEAL NEO MD-System wurde vom Bauhaus-Stil inspiriert. Dieser Stil revolutionierte einst die Architektur. Ein schlichtes und schönes Design für jedermann. Viel Licht und eine Kombination aus Innen- und Außenelementen."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 4000",
+                        "path": "ideal-4000",
+                        "img": "/images/products/windows/aluplast/IDEAL_4000.jpg",
+                        "details": {
+                            "features": [
+                                "5-Kammer-System in Standardkombination",
+                                "Einbautiefe 70 mm",
+                                "System mit Außendichtung (2 Dichtungen)",
+                                "Einbruchhemmungsklasse RC2 durch Tests bestätigt",
+                                "in zahlreichen Farbvarianten erhältlich",
+                                "Der Wärmedurchgangskoeffizient Uw beträgt 0,86 W/m²K (Für ein Referenzfenster mit den Abmessungen 1230 x 1480 mm beträgt Ug = 0,5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "MODERNE ARCHITEKTUR",
+                                "paragraphs": [
+                                    "Die stabile Konstruktion aus Profilen mit einer Einbautiefe von 70 mm und großen Kammern für Stahlverstärkungen garantieren optimale statische Parameter und ermöglichen die Herstellung großformatiger Fenster.",
+                                    "Der Mehrkammeraufbau gewährleistet eine hohe Wärme- und Schalldämmung."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 7000",
+                        "path": "ideal-7000",
+                        "img": "/images/products/windows/aluplast/IDEAL_7000.jpg",
+                        "details": {
+                            "features": [
+                                "6-Kammer-System",
+                                "Einbautiefe 85 mm",
+                                "System mit Außendichtung (2 Dichtungen)",
+                                "klassisches Türblattdesign (classic-line nicht bündig)",
+                                "Einbruchhemmungsklasse RC2 durch Tests bestätigt",
+                                "in zahlreichen Farbvarianten erhältlich",
+                                "Der Wärmedurchgangskoeffizient Uw beträgt 0,79 W/m²K (Für das Referenzfenster mit den Abmessungen 1230 x 1480 mm beträgt Ug = 0,5 W/m²K)",
+                                "V-Perfect-Schweißung serienmäßig"
+                            ],
+                            "description": {
+                                "title": "MODERNE ARCHITEKTUR",
+                                "paragraphs": [
+                                    "IDEAL 7000 ist ein Beispiel für die synergetische Nutzung der Eigenschaften von Profilen und Isolierglas zur Herstellung von Fenstern mit sehr geringem Wärmedurchgangskoeffizienten.",
+                                    "Der in den Tests ermittelte Wärmedurchgangskoeffizient der Profile mit dem Wert Uf = 1,1-1,0 W/m2K, kombiniert mit der Möglichkeit, breitere und wärmere Glaspakete zu verwenden, garantiert die besten thermischen Parameter des Fensters."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Schiebesysteme",
+                "path": "systemy-przesuwne",
+                "subtabs": [
+                    {
+                        "title": "HST 85",
+                        "path": "hst-85",
+                        "img": "/images/products/windows/aluplast/HST_85.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "EIN SYSTEM – DREI LÖSUNGEN",
+                                "paragraphs": [
+                                    "Das neue Türsystem HST 85 mm ist einerseits eine Antwort auf die Erwartungen hinsichtlich der Schaffung immer größerer Fensterkonstruktionen, andererseits durch Designänderungen und vor allem die Möglichkeit, breitere Verglasungspakete einzusetzen Mit einer Breite von bis zu 51 mm können überdurchschnittliche Wärmedämmeigenschaften erzielt werden. Neu in diesem Segment ist der modulare Aufbau, der je nach erwarteten thermischen Parametern drei beliebige Produktkonfigurationen ermöglicht.",
+                                    "Die ideale Lösung für diejenigen, die eine komfortable Verbindung zwischen Innenraum und Terrasse und einen Panoramablick dank einer großen Glasfläche wünschen, ist der Einsatz von Hebe-Schiebetüren HST 85 mm. Der unbestrittene Vorteil dieses Terrassentyps.“ Türen sind die möglichen Abmessungen der Struktur."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "SMART SLIDE",
+                        "path": "smart-slide",
+                        "img": "/images/products/windows/aluplast/SMART_SLIDE.jpg",
+                        "details": {
+                            "features": [
+                                "Rahmeneinbautiefe 140 mm",
+                                "70-mm-Flügel",
+                                "Möglichkeit der Verglasung mit Paketen bis 40 mm",
+                                "modernes Classic-Line-Design",
+                                "Mögliche A+C-Diagramme",
+                                "versteckte Montagemechanismen",
+                                "erhältlich in drei Grundfarben: Weiß, Braun, Anthrazit und einer großen Auswahl an Dekorfolien"
+                            ],
+                            "description": {
+                                "title": "HOHE KONSTRUKTIONSDICHTHEIT",
+                                "paragraphs": [
+                                    "Smart-Slide-Schiebetüren sind eine neue Lösung im Schiebetüren-/Fensterbereich, die letztlich eine attraktive Alternative zu PSK/PATIO-Terrassentüren darstellen kann. Dies ist eine tolle Lösung sowohl für Einfamilienhäuser als auch für öffentliche Versorgungseinrichtungen.“ wo Türen zu Terrassen erwartet werden, Benutzerfreundlichkeit und Zuverlässigkeit.",
+                                    "Der innovative Schließmechanismus ermöglicht eine einfache und intuitive Bedienung, ähnlich wie bei Lösungen, die bei Hebe-Schiebetüren vom Typ HST zum Einsatz kommen.",
+                                    "Spezielle Fensterbeschläge garantieren, dass sich der Flügel nach dem Entriegeln frei und ohne den geringsten Widerstand auf den Laufwagen relativ zum ungeöffneten Teil der Konstruktion bewegt. Der Verriegelungsmechanismus ermöglicht ein sanftes Schließen des Flügels im Rahmen und damit eine einfache Bedienung die Schiebetür."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Türsysteme",
+                "path": "systemy-drzwiowe",
+                "subtabs": [
+                    {
+                        "title": "IDEAL 4000",
+                        "path": "ideal-4000",
+                        "img": "/images/products/windows/aluplast/IDEAL_4000_DOORS.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "MODERNE ARCHITEKTUR",
+                                "paragraphs": [
+                                    "Die IDEAL 4000-Serie ist das Basisangebot im Bereich der Aluplast-Außentürlösungen. Dank der Mehrkammerkonstruktion mit einer Tiefe von 70 mm und der Verwendung einer Türschwelle mit Wärmedämmschicht verfügen sie über eine sehr gute Wärmedämmung Parameter."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 7000",
+                        "path": "ideal-7000",
+                        "img": "/images/products/windows/aluplast/IDEAL_7000_DOORS.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "MODERNE ARCHITEKTUR",
+                                "paragraphs": [
+                                    "Die IDEAL 7000-Serie eröffnet neue Möglichkeiten bei der Herstellung von Außentüren. Durch den Mehrkammeraufbau, einer Einbautiefe von 85 mm und der Möglichkeit, Glaspakete und Füllungen bis zu 50 mm Breite zu verwenden, konnte eine deutliche Verbesserung erzielt werden.“ die Wärmedämmparameter der Struktur und erreicht einen Uf-Wert von bis zu 1,2 W/m2K."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "company": {
+        "title": "Unser Unternehmen",
+        "img": "/images/about_company.jpg",
+        "header": "20 Jahre Erfahrung im Fensterbau – ein neuer Blick in die Zukunft",
+        "text": [
+            "Das Unternehmen Lux Windows entstand aus der Leidenschaft für Fenster. Viele Jahre lang haben sich Mitarbeiter der Branche entschieden, ihre Erfahrung und ihr Wissen zu bündeln und als Reaktion auf die Bedürfnisse unserer Kunden einen Ort für Sie zu schaffen, an dem Sie sich sicher fühlen und immer zählen können.“ über das Engagement und die Flexibilität der Lux Windows-Mitarbeiter",
+            "Seit fast 20 Jahren produzieren die Firmengründer Fenster, Türen, Schiebesysteme, Rollos und Moskitonetze für Unternehmen aus ganz Europa. Dank ihres Engagements und ihrer Erfahrung können sich Kunden in Belgien, den Niederlanden und Deutschland an modernen, warme und helle Innenräume.",
+            "Heute können auch Sie mit unseren Produkten diese jahrelange Erfahrung und Verarbeitungsqualität direkt an Ihre Kunden weitergeben – all das ist in unseren Fenstern und Türen enthalten.",
+            "Die Reichhaltigkeit des Sortiments, die Farbvielfalt, die Liebe zum Detail und die große Auswahl an Accessoires sorgen dafür, dass der Geschmack jedes Kunden befriedigt wird."
+        ]
+    },
+    "location": {
+        "title": "Standort",
+        "header": "Hier finden Sie uns"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "img": "/images/contact.jpg",
+        "owners": {
+            "title": "Eigentümer",
+            "people": [
+                {
+                    "name": "Tomasz Marek",
+                    "phone": "+48 792 047 276",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Piotr Szydłowski",
+                    "phone": "+48 784 004 272",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Damian Robenek",
+                    "phone": "+48 796 661 044",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Michał Trybuś",
+                    "phone": "+48 691 144 211",
+                    "img": "/images/profile.jpeg"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "contact": "Kontaktieren Sie uns",
+        "phones": [
+            {
+                "phone": "+48 502 304 182",
+                "img": "/images/languages/pl.png"
+            },
+            {
+                "phone": "+32 498 152 950",
+                "img": "/images/languages/be.png"
+            }
+        ],
+        "email": "kontakt@luxwindows.eu"
+    }
+}

@@ -1,5 +1,322 @@
 {
+    "homepage": {
+        "title": "Explore our world",
+        "img": "/images/home_page.jpg"
+    },
+    "products": {
+        "title": "Our products",
+        "key": "1",
+        "subtabs": [
+            {
+                "title": "Windows",
+                "key": "1-1",
+                "description": "Our modern windows provide excellent thermal and acoustic insulation, guaranteeing comfort all year round. Made of the highest quality materials, they combine elegant design with durability, which makes them an ideal choice for any home.",
+                "img": "/images/products/windows/windows.png"
+            },
+            {
+                "title": "External doors",
+                "key": "1-2",
+                "description": "Our external doors combine elegance and security, offering solid protection and a stylish appearance. Thanks to their high resistance to weather conditions, they are a durable element of any entranc.",
+                "img": "/images/products/doors/doors.png"
+            },
+            {
+                "title": "Aluminum",
+                "key": "1-3",
+                "description": "Aluminum is a modern material that is light and durable, ideal for innovative architectural designs. Its corrosion resistance makes it an excellent choice for many years of use.",
+                "img": "/images/products/aluminum/aluminum.png"
+            }
+        ]
+    },
+    "windows": {
+        "title": "Windows",
+        "key": "1-1",
+        "description": "Our windows are a combination of modern technology and aesthetics, ensuring comfort and energy savings. They are characterized by excellent thermal and acoustic insulation, protecting the interior against noise and heat loss. Made of durable materials, they are resistant to weather conditions and easy to maintain. Thanks to a variety of styles and colors, they will fit perfectly into any architectural design, adding elegance and functionality. By choosing our windows, you are investing in reliability and comfort for years.",
+        "img": "/images/products/windows/windows.png",
+        "subtabs": [
+            {
+                "title": "Aluplast",
+                "img": "/images/products/windows/aluplast/aluplast.jpg",
+                "key": "1-1-1",
+                "description": "Our windows, based on Aluplast systems, combine modern technology with aesthetics, ensuring excellent thermal and acoustic insulation. Made of durable materials, they are resistant to weather conditions and fit perfectly into any architectural design. By investing in our windows, you choose reliability, comfort and energy saving."
+            }
+        ]
+    },
+    "aluplast": {
+        "title": "Aluplast",
+        "img": "/images/products/windows/aluplast/aluplast.jpg",
+        "key": "1-1-1",
+        "descritpion": "Our windows, based on Aluplast systems, combine modern technology with aesthetics, ensuring excellent thermal and acoustic insulation. Made of durable materials, they are resistant to weather conditions and fit perfectly into any architectural design. By investing in our windows, you choose reliability, comfort and energy saving.",
+        "tabnames": [
+            {
+                "title": "Specification",
+                "tab": "features"
+            },
+            {
+                "title": "Description",
+                "tab": "description"
+            },
+            {
+                "title": "Color",
+                "tab": "color"
+            },
+            {
+                "title": "Downloads",
+                "tab": "download"
+            }
+        ],
+        "subtabs": [
+            {
+                "title": "PVC windows",
+                "path": "okna-pvc",
+                "subtabs": [
+                    {
+                        "title": "IDEAL 8000",
+                        "path": "ideal-8000",
+                        "img": "/images/products/windows/aluplast/IDEAL_8000.jpg",
+                        "details": {
+                            "features": [
+                                "6-chamber system",
+                                "installation depth 85 mm",
+                                "system with middle seal (3 seals)",
+                                "classic door leaf design (classic-line not flush)",
+                                "RC2 burglary resistance class confirmed by tests",
+                                "available in many color variants",
+                                "The heat transfer coefficient Uw is 0.76 W/m²K (For the reference window with dimensions 1230*1480mm, Ug = 0.5 W/m2K)",
+                                "V weld as standard"
+                            ],
+                            "description": {
+                                "title": "The hidden power of technology",
+                                "paragraphs": [
+                                    "IDEAL 8000 is a combination of the most modern technical solutions to obtain above-average properties, guaranteeing warmth, silence, safety and unique aesthetics of the window.",
+                                    "This is an excellent proposition for everyone who expects the highest level of living comfort."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL NEO MD",
+                        "path": "ideal-neo-md",
+                        "img": "/images/products/windows/aluplast/IDEAL_NEO_MD.jpg",
+                        "details": {
+                            "features": [
+                                "6-chamber system",
+                                "installation depth 76 mm",
+                                "system with external seal (3 seals)",
+                                "simple, symmetrical, cubist shape and visual lightness of the structure",
+                                "narrow, expressive rebates",
+                                "classic middle seal – better protection against burglary",
+                                "the heat transfer coefficient Uw is 0.76 W/m²K (For a reference window with dimensions 1230x1480mm, Ug = 0.5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "SIMPLE STRUCTURES AND MINIMALIST DESIGN",
+                                "paragraphs": [
+                                    "IDEAL NEO MD is an extremely attractive design proposition for customers who value timeless style. A simple, symmetrical, cubist shape is the distinguishing feature of windows made in this system.",
+                                    "The IDEAL NEO MD system was inspired by the Bauhaus style. This style once revolutionized architecture. A simple and beautiful design for everyone. Lots of light and a combination of interior and exterior elements."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 4000",
+                        "path": "ideal-4000",
+                        "img": "/images/products/windows/aluplast/IDEAL_4000.jpg",
+                        "details": {
+                            "features": [
+                                "5-chamber system in standard combination",
+                                "installation depth 70 mm",
+                                "system with external seal (2 seals)",
+                                "RC2 burglary resistance class confirmed by tests",
+                                "available in numerous color variants",
+                                "the heat transfer coefficient Uw is 0.86 W/m²K (For a reference window with dimensions of 1230x1480mm, Ug = 0.5 W/m²K)"
+                            ],
+                            "description": {
+                                "title": "MODERN ARCHITECTURE",
+                                "paragraphs": [
+                                    "The strong construction of profiles with an installation depth of 70 mm and large chambers for steel reinforcements guarantee optimal static parameters and enable the production of large-sized windows.",
+                                    "The multi-chamber structure guarantees high thermal and acoustic insulation."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 7000",
+                        "path": "ideal-7000",
+                        "img": "/images/products/windows/aluplast/IDEAL_7000.jpg",
+                        "details": {
+                            "features": [
+                                "6-chamber system",
+                                "installation depth 85 mm",
+                                "system with external seal (2 seals)",
+                                "classic door leaf design (classic-line not flush)",
+                                "RC2 burglary resistance class confirmed by tests",
+                                "available in numerous color variants",
+                                "the heat transfer coefficient Uw is 0.79 W/m²K (For the reference window with dimensions 1230x1480mm, Ug = 0.5 W/m²K)",
+                                "V-Perfect weld as standard"
+                            ],
+                            "description": {
+                                "title": "MODERN ARCHITECTURE",
+                                "paragraphs": [
+                                    "IDEAL 7000 is an example of the synergistic use of the properties of profiles and insulating glass to create windows with very low thermal transmittance.",
+                                    "The thermal transmittance coefficient of the profiles obtained in the tests with the value of Uf = 1.1-1.0 W/m2K, combined with the possibility of using wider and warmer glass packages, guarantees the best thermal parameters of the window."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Sliding systems",
+                "path": "systemy-przesuwne",
+                "subtabs": [
+                    {
+                        "title": "HST 85",
+                        "path": "hst-85",
+                        "img": "/images/products/windows/aluplast/HST_85.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "ONE SYSTEM – THREE SOLUTIONS",
+                                "paragraphs": [
+                                    "The new HST 85 mm door system is, on the one hand, a response to the expectations regarding the creation of increasingly larger window structures, and on the other hand, through design changes and, above all, the possibility of using wider glazing packages up to 51 mm wide, it allows to obtain above-average insulation properties thermal. What's new in this segment is the modular nature of the structure, which allows for three arbitrary product configurations, depending on the expected thermal parameters.",
+                                    "The ideal solution for those who want a comfortable connection between the interior and the terrace and a panoramic view achieved thanks to a large glazed area is the use of HST 85 mm lift-and-slide doors. The undoubted advantage of this type of terrace doors is the possible dimensions of the structure."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "SMART SLIDE",
+                        "path": "smart-slide",
+                        "img": "/images/products/windows/aluplast/SMART_SLIDE.jpg",
+                        "details": {
+                            "features": [
+                                "frame installation depth 140 mm",
+                                "70 mm wing",
+                                "possibility of glazing with packages up to 40 mm",
+                                "modern classic-line design",
+                                "possible A+C diagrams",
+                                "hidden fitting mechanisms",
+                                "available in three core colors: white, brown, anthracite and a wide range of decorative foils"
+                            ],
+                            "description": {
+                                "title": "DUŻA SZCZELNOŚĆ KONSTRUKCJI",
+                                "paragraphs": [
+                                    "Smart-slide sliding doors are a new solution in the sliding doors/windows segment, which may ultimately be an attractive alternative to PSK/PATIO terrace doors. This is a great solution both for single-family housing, but also for public utility facilities where doors are expected to terraces, ease of use and reliability.",
+                                    "The innovative closing mechanism allows for simple and intuitive operation, similar to solutions used in lift-and-slide doors, HST type.",
+                                    "Specialized window fittings guarantee that the sash, after unlocking, moves freely and without the slightest resistance on the trolleys relative to the unopened part of the structure. The locking mechanism allows for gentle closing of the sash in the frame, and thus easy operation of the sliding door."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Door systems",
+                "path": "systemy-drzwiowe",
+                "subtabs": [
+                    {
+                        "title": "IDEAL 4000",
+                        "path": "ideal-4000",
+                        "img": "/images/products/windows/aluplast/IDEAL_4000_DOORS.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "MODERN ARCHITECTURE",
+                                "paragraphs": [
+                                    "The IDEAL 4000 series is the basic proposition in the field of aluplast external door solutions. Thanks to the multi-chamber construction with a depth of 70 mm and the use of a door threshold with a thermal insulation layer, they have very good thermal insulation parameters."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    },
+                    {
+                        "title": "IDEAL 7000",
+                        "path": "ideal-7000",
+                        "img": "/images/products/windows/aluplast/IDEAL_7000_DOORS.jpg",
+                        "details": {
+                            "features": [],
+                            "description": {
+                                "title": "MODERN ARCHITECTURE",
+                                "paragraphs": [
+                                    "The IDEAL 7000 series opens up new possibilities in the production of external doors. Thanks to the multi-chamber structure, installation depth of 85 mm and the possibility of using glass packages and fillings up to 50 mm wide, it was possible to significantly improve the thermal insulation parameters of the structure, reaching a Uf value of up to 1.2 W/ m2K."
+                                ]
+                            },
+                            "color": [],
+                            "download": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "company": {
+        "title": "Our company",
+        "img": "/images/about_company.jpg",
+        "header": "20 years of experience in window joinery - a new look into the future",
+        "text": [
+            "The Lux Windows company was created out of passion for windows. Many years of industry employees decided to combine their experience and knowledge, and in response to the needs of our customers, they created a place for you where you can feel confident and always count on the commitment and flexibility of Lux Windows employees.",
+            "For almost 20 years, the company's founders have been producing windows, doors, sliding systems, roller blinds and mosquito nets for companies from all over Europe. Thanks to their commitment and experience, customers in Belgium, the Netherlands and Germany can enjoy modern, warm and bright interiors.",
+            "Today you too can use our products to deliver these years of experience and quality of workmanship straight to your customers - all this is included in our windows and doors.",
+            "The richness of the assortment, variety of colors, attention to detail and a wide range of accessories ensure that the tastes of every customer will be satisfied."
+        ]
+    },
+    "location": {
+        "title": "Location",
+        "header": "You will find us here"
+    },
+    "contact": {
+        "title": "Contact",
+        "img": "/images/contact.jpg",
+        "owners": {
+            "title": "Owners",
+            "people": [
+                {
+                    "name": "Tomasz Marek",
+                    "phone": "+48 792 047 276",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Piotr Szydłowski",
+                    "phone": "+48 784 004 272",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Damian Robenek",
+                    "phone": "+48 796 661 044",
+                    "img": "/images/profile.jpeg"
+                },
+                {
+                    "name": "Michał Trybuś",
+                    "phone": "+48 691 144 211",
+                    "img": "/images/profile.jpeg"
+                }
+            ]
+        }
+    },
     "footer": {
-        "contact": "Contact us"
+        "contact": "Contact us",
+        "phones": [
+            {
+                "phone": "+48 502 304 182",
+                "img": "/images/languages/pl.png"
+            },
+            {
+                "phone": "+32 498 152 950",
+                "img": "/images/languages/be.png"
+            }
+        ],
+        "email": "kontakt@luxwindows.eu"
     }
 }

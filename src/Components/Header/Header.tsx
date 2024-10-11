@@ -46,9 +46,9 @@ const Header = () => {
     const handleListElementClick = async (key: string) => {
         const { data } = await axios.get("/data/routes.json?url");
         const finded: Route = data.find((item: Route) => item.key === key);
-        if(finded.element && finded.element.includes("#")){
-            navigate(`${finded.name}/${finded.element}`)
-        }else{
+        if (finded.element && finded.element.includes("#")) {
+            navigate(`${finded.name}/${finded.element}`);
+        } else {
             navigate(finded.name);
         }
         setClose();
@@ -85,7 +85,7 @@ const Header = () => {
             }}
         >
             <div className="flex flex-col gap-[12px]">
-                <div className="flex justify-between items-center text-[20px] p-[16px] gap-[24px]">
+                <div className="flex justify-between items-center text-[20px] p-[16px] gap-[8px]">
                     <Logo />
                     <div className="lg:flex hidden">
                         <Menu data={data} />

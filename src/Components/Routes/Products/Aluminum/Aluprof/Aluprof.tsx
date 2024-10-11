@@ -1,5 +1,5 @@
 const Aluprof = () => {
-    return <div>Aluprof</div>;
+    return <div className="box">Aluprof</div>;
 };
 
 export default Aluprof;

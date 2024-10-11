@@ -16,6 +16,15 @@ import Aluprof from "./Components/Routes/Products/Aluminum/Aluprof/Aluprof";
 import "./index.css";
 import AluplastItem from "./Components/Routes/Products/Windows/Aluplast/AluplastItem";
 import HomePage from "./Components/Routes/HomePage/HomePage";
+import Doors from "./Components/Routes/Products/Doors/Doors";
+import ReadyDoors from "./Components/Routes/Products/Doors/ReadyDoors/ReadyDoors";
+import Full from "./Components/Routes/Products/Doors/ReadyDoors/Full/Full";
+import Glazed from "./Components/Routes/Products/Doors/ReadyDoors/Glazed/Glazed";
+import PCVFRAME from "./Components/Routes/Products/Doors/ReadyDoors/PCVFrame/PCVFRAME";
+import WithApp from "./Components/Routes/Products/Doors/ReadyDoors/WithApp/WithApp";
+import Technical from "./Components/Routes/Products/Doors/ReadyDoors/Technical/Technical";
+import OrderDoors from "./Components/Routes/Products/Doors/OrderDoors/OrderDoors";
+import NotFound from "./Assets/NotFound/NotFound";
 
 export const GlobalContext = createContext<GlobalContextDef>(
     {} as GlobalContextDef
@@ -34,7 +43,14 @@ function App() {
             const { data } = await axios.get(
                 `/data/${defaultLanguage.name.toLowerCase()}/site.json`
             );
-            setData(data);
+
+            if (typeof data === "string") {
+                const { data } = await axios.get(`/data/pl/site.json`);
+                setDefaultLanguage(languages[0]);
+                setData(data);
+            } else {
+                setData(data);
+            }
         };
         fetchData();
 
@@ -79,14 +95,38 @@ function App() {
                                 element={<AluplastItem />}
                             />
                             {/* Drzwi zewnetrzne */}
-                            <Route path="/produkty/drzwi-zewnetrzne" />
-                            <Route path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki" />
-                            <Route path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/pelne" />
-                            <Route path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/przeszklone-inox" />
-                            <Route path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-ramka-pcv" />
-                            <Route path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-aplikacja" />
-                            <Route path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/techniczne" />
-                            <Route path="/produkty/drzwi-zewnetrzne/drzwi-na-zamowienie" />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne"
+                                element={<Doors />}
+                            />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki"
+                                element={<ReadyDoors />}
+                            />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/pelne"
+                                element={<Full />}
+                            />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/przeszklone-inox"
+                                element={<Glazed />}
+                            />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-ramka-pcv"
+                                element={<PCVFRAME />}
+                            />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-aplikacja"
+                                element={<WithApp />}
+                            />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/techniczne"
+                                element={<Technical />}
+                            />
+                            <Route
+                                path="/produkty/drzwi-zewnetrzne/drzwi-na-zamowienie"
+                                element={<OrderDoors />}
+                            />
                             {/* Aluminium */}
                             <Route
                                 path="/produkty/aluminium"
@@ -97,17 +137,14 @@ function App() {
                                 element={<Aluprof />}
                             />
                             {/* Nasza firma */}
-                            <Route
-                                path="nasza-firma"
-                                element={<Company />}
-                            />
+                            <Route path="nasza-firma" element={<Company />} />
                             {/*  */}
                             {/* Kontakt */}
                             <Route path="kontakt" element={<Contact />} />
                             {/*  */}
                             {/* Lokalizacja */}
                             <Route path="lokalizacja" element={<Location />} />
-                            <Route path="*" element={<div>Źle trafiłeś</div>} />
+                            <Route path="*" element={<NotFound />} />
                         </Routes>
                     </div>
                     <Footer />

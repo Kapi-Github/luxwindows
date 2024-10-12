@@ -5,6 +5,7 @@ import PhoneFirstTierList from "./PhoneFirstTierList";
 import useWindowWidth from "../../../Hooks/useWindowWidth";
 import { GlobalContext } from "../../../App";
 import languages from "./../../../data/languages.json";
+import { useLocation } from "react-router-dom";
 
 interface Props {
     data: Tab[];
@@ -12,6 +13,7 @@ interface Props {
 
 const PhoneMenu = ({ data }: Props) => {
     const windowWidth = useWindowWidth();
+    const { pathname } = useLocation();
     const {
         setOpen,
         setClose,
@@ -35,7 +37,7 @@ const PhoneMenu = ({ data }: Props) => {
             if (openedTabs[key]) {
                 if (openedTabs[key] === tab.name) {
                     handleListElementClick(tab.key);
-                    handleClose();
+                    handleMenuClick();
                     setIsMenuOpen(false);
                 }
 
@@ -75,7 +77,7 @@ const PhoneMenu = ({ data }: Props) => {
         }
     };
 
-    const handleClose = () => {
+    const handleMenuClick = () => {
         setIsLanguagesOpen(false);
         setIsMenuOpen((prev) => !prev);
         setOpenedTabs({
@@ -86,6 +88,12 @@ const PhoneMenu = ({ data }: Props) => {
         });
     };
 
+    useEffect(() => {
+        setIsMenuOpen(false);
+        setClose();
+        setIsLanguagesOpen(false);
+    }, [pathname]);
+
     return (
         <div className="flex-1 relative justify-end">
             <div className="w-[28px] h-[28px]">
@@ -93,14 +101,14 @@ const PhoneMenu = ({ data }: Props) => {
                     <Icon
                         icon="maki:cross"
                         cursor="pointer"
-                        onClick={() => handleClose()}
+                        onClick={() => handleMenuClick()}
                         width="100%"
                     />
                 ) : (
                     <Icon
                         icon="ri:menu-fill"
                         cursor="pointer"
-                        onClick={() => handleClose()}
+                        onClick={() => handleMenuClick()}
                         width="100%"
                     />
                 )}

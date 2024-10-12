@@ -10,7 +10,7 @@ const Products = () => {
     return (
         <div className="flex flex-col gap-[36px] box">
             <div className="flex justify-center">
-                <span className="text-[64px] font-extralight text-zinc-950 text-center">
+                <span className="text-[48px] sm:text-[64px] font-extralight text-zinc-950 text-center">
                     {data.products.title.toUpperCase()}
                 </span>
             </div>

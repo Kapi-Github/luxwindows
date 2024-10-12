@@ -274,6 +274,7 @@
     },
     "location": {
         "title": "Locatie",
+        "img": "/images/location.jpg",
         "header": "Hier vindt u ons"
     },
     "contact": {

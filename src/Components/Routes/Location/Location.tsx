@@ -1,7 +1,6 @@
 import { LatLngLiteral } from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import locationImg from "/images/location.jpg";
 import locationIcon from "/images/icon.png";
 import L from "leaflet";
 import { useContext } from "react";
@@ -20,19 +19,17 @@ const Location = () => {
 
     return (
         <div className="w-full h-full flex flex-col gap-[48px] box">
-            <div className="w-full">
-                <div className="relative">
-                    <img
-                        src={locationImg}
-                        alt="Lokalizacja zdjęcie"
-                        className="w-full lg:h-[350px] sm:h-[250px] h-[200px] object-cover blur-[3px]"
-                    />
-                    <div className="absolute z-[50] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        <span className="text-[48px] text-white font-extralight tracking-[2px]">
-                            {data.location.title.toUpperCase()}
-                        </span>
-                    </div>
+            <div className="w-full relative">
+                <div className="absolute top-0 flex justify-center items-center w-full h-full bg-opacity-50 bg-black">
+                    <span className="text-white text-[48px] sm:text-[68px] tracking-[4px] font-light">
+                        {data.location.title}
+                    </span>
                 </div>
+                <img
+                    src={data.location.img}
+                    alt={data.location.title}
+                    className="w-full object-cover h-[350px]"
+                />
             </div>
             <div className="w-full flex justify-center">
                 <span className="text-[42px] tracking-[3px] text-center">

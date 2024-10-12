@@ -274,6 +274,7 @@
     },
     "location": {
         "title": "Lokalizacja",
+        "img": "/images/location.jpg",
         "header": "Znajdziesz nas tutaj"
     },
     "contact": {

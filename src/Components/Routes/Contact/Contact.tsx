@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="box flex flex-col items-center w-full gap-[24px]">
             <div className="w-full relative">
                 <div className="absolute top-0 flex justify-center items-center w-full h-full bg-opacity-50 bg-black">
-                    <span className="text-white text-[68px] tracking-[4px] font-light">
+                    <span className="text-white text-[48px] sm:text-[68px] tracking-[4px] font-light">
                         {data.contact.title}
                     </span>
                 </div>

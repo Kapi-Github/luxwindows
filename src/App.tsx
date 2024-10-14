@@ -64,94 +64,91 @@ function App() {
         window.scrollTo(0, 0);
     };
 
+    if (!data) {
+        return <Loading />;
+    }
+
     return (
         <div className="w-full min-h-screen flex flex-col justify-between gap-[28px] relative box">
-            {data ? (
-                <GlobalContext.Provider
-                    value={{
-                        defaultLanguage,
-                        setDefaultLanguage,
-                        data,
-                        moveToPage,
-                    }}
-                >
-                    <div className="max-w-[1260px] w-full mx-auto flex flex-col gap-[18px] bg-white font-[Poppins]">
-                        <Header />
-                        <Routes>
-                            <Route path="/" element={<HomePage />} />
-                            {/* Produkty */}
-                            {/* Okna */}
-                            <Route path="/produkty" element={<Products />} />
-                            <Route
-                                path="/produkty/okna"
-                                element={<Windows />}
-                            />
-                            <Route
-                                path="/produkty/okna/aluplast"
-                                element={<Aluplast />}
-                            />
-                            <Route
-                                path="/produkty/okna/aluplast/:category/:item"
-                                element={<AluplastItem />}
-                            />
-                            {/* Drzwi zewnetrzne */}
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne"
-                                element={<Doors />}
-                            />
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki"
-                                element={<ReadyDoors />}
-                            />
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/pelne"
-                                element={<Full />}
-                            />
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/przeszklone-inox"
-                                element={<Glazed />}
-                            />
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-ramka-pcv"
-                                element={<PCVFRAME />}
-                            />
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-aplikacja"
-                                element={<WithApp />}
-                            />
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/techniczne"
-                                element={<Technical />}
-                            />
-                            <Route
-                                path="/produkty/drzwi-zewnetrzne/drzwi-na-zamowienie"
-                                element={<OrderDoors />}
-                            />
-                            {/* Aluminium */}
-                            <Route
-                                path="/produkty/aluminium"
-                                element={<Aluminum />}
-                            />
-                            <Route
-                                path="/produkty/aluminium/aluprof"
-                                element={<Aluprof />}
-                            />
-                            {/* Nasza firma */}
-                            <Route path="nasza-firma" element={<Company />} />
-                            {/*  */}
-                            {/* Kontakt */}
-                            <Route path="kontakt" element={<Contact />} />
-                            {/*  */}
-                            {/* Lokalizacja */}
-                            <Route path="lokalizacja" element={<Location />} />
-                            <Route path="*" element={<NotFound />} />
-                        </Routes>
-                    </div>
-                    <Footer />
-                </GlobalContext.Provider>
-            ) : (
-                <Loading />
-            )}
+            <GlobalContext.Provider
+                value={{
+                    defaultLanguage,
+                    setDefaultLanguage,
+                    data,
+                    moveToPage,
+                }}
+            >
+                <div className="max-w-[1260px] w-full mx-auto flex flex-col gap-[18px] bg-white font-[Poppins]">
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={<HomePage />} />
+                        {/* Produkty */}
+                        {/* Okna */}
+                        <Route path="/produkty" element={<Products />} />
+                        <Route path="/produkty/okna" element={<Windows />} />
+                        <Route
+                            path="/produkty/okna/aluplast"
+                            element={<Aluplast />}
+                        />
+                        <Route
+                            path="/produkty/okna/aluplast/:category/:item"
+                            element={<AluplastItem />}
+                        />
+                        {/* Drzwi zewnetrzne */}
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne"
+                            element={<Doors />}
+                        />
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki"
+                            element={<ReadyDoors />}
+                        />
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/pelne"
+                            element={<Full />}
+                        />
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/przeszklone-inox"
+                            element={<Glazed />}
+                        />
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-ramka-pcv"
+                            element={<PCVFRAME />}
+                        />
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/z-aplikacja"
+                            element={<WithApp />}
+                        />
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne/drzwi-dostepne-od-reki/techniczne"
+                            element={<Technical />}
+                        />
+                        <Route
+                            path="/produkty/drzwi-zewnetrzne/drzwi-na-zamowienie"
+                            element={<OrderDoors />}
+                        />
+                        {/* Aluminium */}
+                        <Route
+                            path="/produkty/aluminium"
+                            element={<Aluminum />}
+                        />
+                        <Route
+                            path="/produkty/aluminium/aluprof"
+                            element={<Aluprof />}
+                        />
+                        {/* Nasza firma */}
+                        <Route path="nasza-firma" element={<Company />} />
+                        {/*  */}
+                        {/* Kontakt */}
+                        <Route path="kontakt" element={<Contact />} />
+                        {/*  */}
+                        {/* Lokalizacja */}
+                        <Route path="lokalizacja" element={<Location />} />
+                        <Route path="*" element={<NotFound />} />
+                    </Routes>
+                </div>
+                <Footer />
+            </GlobalContext.Provider>
         </div>
     );
 }
